@@ -53,4 +53,36 @@ h2, h3, h5 {
     color: #000000;
     margin-bottom: 15px;
 }
+.post-meta {
+    display: flex;
+    align-items: center; /* Center-aligns icons and text vertically */
+    gap: 20px; /* Adds space between each meta item */
+    margin-top: 10px; /* Space between College Compass text and the meta items */
+}
 
+.meta-item {
+    display: flex;
+    align-items: center; /* Aligns icons and text vertically */
+    gap: 5px; /* Space between icon and text */
+}
+
+.meta-item i {
+    color: #FF5722; /* Color for icons */
+    font-size: 16px; /* Size for icons */
+}
+
+.meta-item span {
+    font-size: 14px; /* Size for text */
+    color: #333333; /* Color for text */
+}
+
+@media screen and (max-width: 480px) {
+    .post-meta {
+        flex-direction: column; /* Stack the meta items vertically on smaller screens */
+        align-items: flex-start; /* Aligns items to the start */
+    }
+
+    .meta-item {
+        margin-bottom: 10px; /* Adds space between stacked items */
+    }
+}
