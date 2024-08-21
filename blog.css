@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: #000000;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* To ensure columns stack on smaller screens */
+    margin-top: 20px;
+}
+
+.left-column {
+    flex: 3; /* Takes up more space compared to right-column */
+    padding-right: 10px; /* Space between left and right column */
+}
+
+.right-column {
+    flex: 1; /* Takes up less space compared to left-column */
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px; /* Add spacing between cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+h2, h3, h5 {
+    color: #000000;
+    margin-bottom: 15px;
+}
+

@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 35px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
