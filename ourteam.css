@@ -42,3 +42,35 @@
   transform: translate3d(0px, -5px, 0px);
     color: #316ce8;
 }
+.team4 .img-fluid {
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+}
+
+.team4 .img-fluid:hover {
+  transform: scale(1);
+}
+.team4 h3, .team4 h6.subtitle {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.team4 h3 {
+  animation: slideIn 1s forwards;
+}
+
+.team4 h6.subtitle {
+  animation: slideIn 1.2s forwards;
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateY(20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
