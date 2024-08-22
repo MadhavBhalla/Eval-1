@@ -10,8 +10,7 @@ body {
 
 header {
     background-color: #ffffff;
-   
-    text-align: center;
+   text-align: center;
 }
 
 header h1 {
@@ -39,11 +38,22 @@ header h1 {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
+.card:hover {
+    background-color: #e3e0e0; 
+    box-shadow: 0 4px 8px rgba(233, 232, 232, 0.2); 
+    transform: translateY(-5px); 
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
 
 .card img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+}
+.card img:hover {
+    opacity: 0.5; /* Slightly reduces opacity */
+    transform: scale(1.05); /* Zooms in the image slightly */
+    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
 }
 
 h2, h3, h5 {
