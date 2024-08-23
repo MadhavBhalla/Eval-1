@@ -50,6 +50,7 @@ header h1 {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    border-radius: 30px;
 }
 .cards {
     background-color: #ffffff;
@@ -67,6 +68,7 @@ header h1 {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
+    border-radius: 30px;
 }
 .cards img:hover {
     opacity: 0.9; 
