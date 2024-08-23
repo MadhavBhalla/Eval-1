@@ -36,11 +36,12 @@ header h1 {
 .card {
     background-color: #ffffff;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+    animation: fadeInCard 0.8s ease-in-out; 
 }
 .card:hover {
-    background-color: #e3e0e0; 
-    box-shadow: 0 4px 8px rgba(233, 232, 232, 0.2); 
+    background-color: #e0dcdc; 
+    box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
     transform: translateY(-5px); 
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
 }
@@ -50,10 +51,27 @@ header h1 {
     height: auto;
     margin-bottom: 15px;
 }
-.card img:hover {
-    opacity: 0.5; /* Slightly reduces opacity */
-    transform: scale(1.05); /* Zooms in the image slightly */
-    transition: transform 0.3s, opacity 0.3s; /* Smooth transition */
+.cards {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px; 
+    animation: fadeInCard 0.8s ease-in-out; 
+}
+.cards:hover {
+    background-color: #e0dcdc;
+    box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
+    transform: translateY(-5px); 
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
+.cards img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.cards img:hover {
+    opacity: 0.9; 
+    transform: scale(1.05); 
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 h2, h3, h5 {
