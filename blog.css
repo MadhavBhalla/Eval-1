@@ -113,3 +113,7 @@ h2, h3, h5 {
         margin-bottom: 10px; 
     }
 }
+.btn btn-primary{
+    width: 50%;
+    height: 50%;
+}
