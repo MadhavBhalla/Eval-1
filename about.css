@@ -1,0 +1,36 @@
+#feature {
+    padding: 60px 0;
+}
+
+.feature_1l {
+    padding-left: 60px; 
+}
+
+.feature_1l h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+
+.feature_1l p {
+    margin-left: 12px;
+}
+.feature_1li {
+    margin-bottom: 30px;
+}
+
+.feature_1lil .rounded-circle {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    line-height: 70px;
+}
+
+.feature_1r img {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
