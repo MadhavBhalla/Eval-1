@@ -11,9 +11,44 @@
     text-align: center;
 }
 .card{
-    width: 400px;
-   
+    width: 20rem;
+    /* transition-duration: 0.2s;
+    transition-timing-function: ease-out; */
+    /* animation: cardExpand 0.8s ease-out ; */
+}
+.card:hover{
+    
+    width: 20.2rem;
+    border: 2px solid rgba(0, 0, 0, 0.352);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.363);
+    transform: translateY(-5px); 
+    transition: 0.3s;
+    background-color: rgb(241, 237, 234);
+
 }
 .card-img-top{
     height: 250px;
+    opacity: 0.87;
+}
+    
+.card-img-top:hover{
+    opacity: 1;
+   
+}
+.btn-primary{
+    width: 50%;
+  
+}
+.btn-primary:hover{
+    background-color:rgb(2, 5, 99) ;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    width: 51%;
+    opacity: 2;
+   
+}
+
+.btn{
+    display: block;
+    margin: auto;
 }
