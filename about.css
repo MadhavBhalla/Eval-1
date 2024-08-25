@@ -15,18 +15,15 @@
 }
 
 .feature_1l p {
-    margin-left: 12px;
-}
-.feature_1li {
-    margin-bottom: 30px;
+    margin-left: 10px;
 }
 
-.feature_1lil .rounded-circle {
-    width: 70px;
-    height: 70px;
-    font-size: 28px;
-    line-height: 70px;
+.feature_1li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Adjust the margin as needed */
 }
+
 
 .feature_1r img {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
@@ -34,3 +31,38 @@
     padding-top: 30px;
     padding-left: 15px;
 }
+
+.popular_1i{ 
+    position: relative;}
+
+    .ab{
+        color: #fff;
+    }
+    .abc{
+        font:50px;
+        text-decoration: #fff;
+    }
+
+    .feature_1lil .icon-style {
+        border-radius: 100%;
+        text-align: center;
+        background-color: #ff7350; /* Replace with your specific color if needed */
+        color: white;
+        font-size: 1.5rem; /* Adjust font size so icons fit within the circle */
+        width: 3rem; /* Fixed width for consistent circle size */
+        height: 3rem; /* Fixed height for consistent circle size */
+        line-height: 3rem; /* Align text vertically within the circle */
+        overflow: hidden; /* Ensure any overflow is hidden */
+        display: flex; /* Use flexbox to center icon */
+        justify-content: center; /* Center icon horizontally */
+        align-items: center; /* Center icon vertically */
+        margin-top: -55px;
+    }
+    
+    .custom-img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover; /* Optional: Ensures the image covers the container, maintaining aspect ratio */
+      }
+    
+    
