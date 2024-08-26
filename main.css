@@ -74,11 +74,12 @@ a:hover {
     text-align: center;
     cursor: pointer;
 }
-figure.effect-jazz img {
+figure.effects img {
     transition: opacity 0.35s, transform 0.35s;
+    margin-bottom: 0%;
 }
 
-figure.effect-jazz:hover img {
+figure.effects:hover img {
     transform: scale3d(1.05, 1.05, 1);
 }
 .head1 {
