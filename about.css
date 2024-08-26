@@ -21,9 +21,17 @@
 .feature_1li {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem; /* Adjust the margin as needed */
+    margin-bottom: 1rem;
 }
 
+.area{
+    background-color: #125875;
+}
+
+.para1{
+    color: #96bece;
+    margin-bottom: 0px;
+}
 
 .feature_1r img {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
@@ -46,23 +54,23 @@
     .feature_1lil .icon-style {
         border-radius: 100%;
         text-align: center;
-        background-color: #ff7350; /* Replace with your specific color if needed */
+        background-color: #ff7350; 
         color: white;
-        font-size: 1.5rem; /* Adjust font size so icons fit within the circle */
-        width: 3rem; /* Fixed width for consistent circle size */
-        height: 3rem; /* Fixed height for consistent circle size */
-        line-height: 3rem; /* Align text vertically within the circle */
-        overflow: hidden; /* Ensure any overflow is hidden */
-        display: flex; /* Use flexbox to center icon */
-        justify-content: center; /* Center icon horizontally */
-        align-items: center; /* Center icon vertically */
+        font-size: 1.5rem; 
+        width: 3rem; 
+        height: 3rem; 
+        line-height: 3rem; 
+        overflow: hidden; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
         margin-top: -55px;
     }
     
     .custom-img {
         height: 200px;
         width: 100%;
-        object-fit: cover; /* Optional: Ensures the image covers the container, maintaining aspect ratio */
+        object-fit: cover; 
       }
     
     

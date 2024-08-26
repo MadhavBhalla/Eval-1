@@ -21,37 +21,37 @@ a:hover {
 }
 
 .navbar-custom {
-    background-color: #ffffff; /* Equivalent to 'bg-white' */
-    padding: 0; /* Equivalent to 'p-0' */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Example shadow for 'shadow_box' */
+    background-color: #ffffff; 
+    padding: 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-.text-highlight {
-    color: #ff7350; /* Example color for 'col_oran' */
+.symbol {
+    color: #ff7350; 
 }
 
 .box {
-    padding: 30px; /* p_3 equivalent */
-    text-align: center; /* center_o equivalent */
-    background-color: #225572; /* bg_blue equivalent */
+    padding: 30px; 
+    text-align: center; 
+    background-color: #225572; 
 }
 
 .boxa {
-    display: flex;          /* Assuming 'row' means flex row */
-    justify-content: center; /* Assuming 'center_o1' means centering horizontally */
-    text-align: center;      /* Assuming 'text-center' means center text alignment */
+    display: flex;          
+    justify-content: center; 
+    text-align: center;      
 }
 .boxb{
     font-size: 60px;
     color: white;
 }
 .boxc{
-    color: #343a40; /* Equivalent to text-dark */
-            margin-bottom: 0; /* Equivalent to mb-0 */
-            display: inline-block; /* Equivalent to d-inline-block */
-            background-color: #ff7350; /* Equivalent to bg_oran (assuming orange color) */
-            padding: 1rem 1rem; /* Equivalent to p-3 px-4 */
-            border-radius: 30px; /* Equivalent to rounded_30 */
+    color: #343a40; 
+            margin-bottom: 0; 
+            display: inline-block; 
+            background-color: #ff7350; 
+            padding: 1rem 1rem; 
+            border-radius: 30px; 
 }
 .button {
     background: #ff7350;
@@ -81,33 +81,21 @@ figure.effect-jazz img {
 figure.effect-jazz:hover img {
     transform: scale3d(1.05, 1.05, 1);
 }
-.col_oran {
-    color: #ff7350;
-}
-.col_blue {
-    color: #125875;
-}
-.bg_oran {
-    background: #ff7350;
-}
-.bg_blue {
-    background: #125875;
-}
-.bg_dark {
-    background: #032e3f;
-}
+.head1 {
+            color: #ff7350;
+            margin-bottom: 0;
+            font-size: 1em; 
+        }
+        .part1 {
+        padding: 30px 0; 
+        background: #032e3f; 
+    }
 .bg_light {
     background: #eff7ff;
 }
 hr {
     background-color: #f5e2de;
     opacity:1;
-}
-.font_14 {
-    font-size: 14px;
-}
-.font_12 {
-    font-size: 12px;
 }
 .font_8 {
     font-size: 8px;
@@ -128,18 +116,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.border_1 {
-    border: 1px solid #f5e2de;
-}
-.rounded_30 {
-    border-radius: 30px;
-}
-.col_light {
-    color: #96bece;
-}
-.bg_back {
-    background: #223f49eb;
-}
+
 .navbar-brand {
     font-size: 40px;
 }
@@ -189,7 +166,6 @@ hr {
 }
 
 .login {
-    /* Styling from 'nav-link' */
     color: #fff;
     background-color: #ff7350;
     padding: 25px 25px;
@@ -252,42 +228,18 @@ hr {
     background-color: #ff7350;
   }
 
-  ul.social-network {
+  ul.social-icon {
     list-style: none;
     display: block;
     margin-left: 0 !important;
     padding: 0;
-  }
+}
 
-  ul.social-network li {
+ul.social-icon li {
     display: inline-block;
-  }
+}
 
-  .social-network a.icoFacebook:hover {
-    background-color: #3B5998;
-  }
-
-  .social-network a.icoGoogle:hover {
-    background-color: #BD3518;
-  }
-
-  .social-network a.icoLinkedin:hover {
-    background-color: #007bb7;
-  }
-
-  .social-network a.icoRss:hover {
-    background-color: #F56505;
-  }
-
-  .social-network a.icoInstagram:hover {
-    background-color: #E1306C;
-  }
-
-  .social-network a:hover i {
-    color: #fff;
-  }
-
-  .social-circle li a {
+.social-icon a {
     display: inline-block;
     position: relative;
     margin: 0 auto;
@@ -295,27 +247,45 @@ hr {
     text-align: center;
     width: 40px;
     height: 40px;
-  }
+    transition: background-color 0.3s, color 0.3s;
+}
 
-  .social-circle li i {
+.social-icon a i {
     line-height: 40px;
     text-align: center;
-  }
-
-  .social-circle li a:hover i {
-    transform: rotate(360deg);
-    transition: all 0.2s;
-  }
-
-  .social-circle i {
     color: #fff;
-    transition: all 0.8s;
-  }
+    transition: color 0.8s, transform 0.2s;
+}
+
+.social-icon a:hover i {
+    color: #fff;
+}
+
+.social-icon a.Facebook:hover {
+    background-color: #3B5998;
+}
+
+.social-icon a.Google:hover {
+    background-color: #BD3518;
+}
+
+.social-icon a.Linkedin:hover {
+    background-color: #007bb7;
+}
+
+
+.social-icon a.Instagram:hover {
+    background-color: #E1306C;
+}
+
+.social-icon a:hover i {
+    transform: rotate(360deg);
+}
 
   .group {
-    color: #000; /* Equivalent to text-black */
-    font-weight: bold; /* Equivalent to fw-bold */
+    color: #000; 
+    font-weight: bold; 
   }
   .group:hover {
-    color: #000; /* Ensures color remains black on hover */
+    color: #000; 
   }
