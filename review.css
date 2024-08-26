@@ -11,6 +11,11 @@
 
 .card-body {
     padding: 40px 20px;
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+    margin-top: 0.5rem; 
+    display: flex; 
+    justify-content: center;
 }
 
 .card h5 {
@@ -31,20 +36,23 @@
 
 .card img {
     border: 4px solid #fff;
+    border-radius: 50%; 
+    width: 100px; /* Sets the width */
 }
+
 
 .fa-star, .fa-star-half-alt, .fa-star-half {
     color: #ffbb33;
     margin-right: 5px;
 }
 
-.fa-quote-left {
-    color: #ffbb33;
-    margin-right: 10px;
-}
-
-.list-unstyled {
+.lista{
     margin-bottom: 20px;
+    list-style-type: none; /* Removes default list styling */
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Applies flexbox layout */
+    justify-content: center; /* Centers items horizontally within the flex container */
 }
 
 .btn-primary {
@@ -65,4 +73,23 @@
     background-color: #125875; 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-2px); 
+}
+.detail1 {
+    font-weight: 700; 
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+.name1 {
+    font-weight: 700;
+    color: #000;
+}
+
+.a{
+    display: flex; /* Ensures flexbox layout is applied */
+    justify-content: center; /* Centers items horizontally within the flex container */
+}
+
+.b{
+    text-align: center; /* Centers text horizontally */
 }
