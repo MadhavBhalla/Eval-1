@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 * {
   padding: 0;
@@ -27,7 +27,13 @@ form {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
 
 .form-control {
   color: rgba(0,0,0,.87);
@@ -53,3 +59,8 @@ h4 {
   font-weight: 800 !important;
 }
 
+@media only screen and (max-width: 600px) {
+    form {
+      width: 100% !important;
+    }
+}
