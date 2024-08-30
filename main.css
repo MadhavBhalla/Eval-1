@@ -19,6 +19,40 @@ a {
 a:hover {
     color: #ff7350;
 }
+
+.navbar-custom {
+    background-color: #ffffff; 
+    padding: 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.symbol {
+    color: #ff7350; 
+}
+
+.box {
+    padding: 30px; 
+    text-align: center; 
+    background-color: #225572; 
+}
+
+.boxa {
+    display: flex;          
+    justify-content: center; 
+    text-align: center;      
+}
+.boxb{
+    font-size: 60px;
+    color: white;
+}
+.boxc{
+    color: #343a40; 
+            margin-bottom: 0; 
+            display: inline-block; 
+            background-color: #ff7350; 
+            padding: 1rem 1rem; 
+            border-radius: 30px; 
+}
 .button {
     background: #ff7350;
     color: #fff!important;
@@ -40,40 +74,29 @@ a:hover {
     text-align: center;
     cursor: pointer;
 }
-figure.effect-jazz img {
+figure.effects img {
     transition: opacity 0.35s, transform 0.35s;
+    margin-bottom: 0%;
 }
 
-figure.effect-jazz:hover img {
+figure.effects:hover img {
     transform: scale3d(1.05, 1.05, 1);
 }
-.col_oran {
-    color: #ff7350;
-}
-.col_blue {
-    color: #125875;
-}
-.bg_oran {
-    background: #ff7350;
-}
-.bg_blue {
-    background: #125875;
-}
-.bg_dark {
-    background: #032e3f;
-}
+.head1 {
+            color: #ff7350;
+            margin-bottom: 0;
+            font-size: 1em; 
+        }
+        .part1 {
+        padding: 30px 0; 
+        background: #032e3f; 
+    }
 .bg_light {
     background: #eff7ff;
 }
 hr {
     background-color: #f5e2de;
     opacity:1;
-}
-.font_14 {
-    font-size: 14px;
-}
-.font_12 {
-    font-size: 12px;
 }
 .font_8 {
     font-size: 8px;
@@ -94,18 +117,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.border_1 {
-    border: 1px solid #f5e2de;
-}
-.rounded_30 {
-    border-radius: 30px;
-}
-.col_light {
-    color: #96bece;
-}
-.bg_back {
-    background: #223f49eb;
-}
+
 .navbar-brand {
     font-size: 40px;
 }
@@ -153,52 +165,82 @@ hr {
     transform: translateY(40px);
     transition: transform .3s;
 }
+
+.login {
+    color: #fff;
+    background-color: #ff7350;
+    padding: 25px 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+.login:hover {
+    color: #fff;
+    background-color: #225572;
+}
+
 #header .button {
     padding: 24px 22px;
 }
 
-.footer_1i ul li a {
+  .footer_1i ul li a {
     background: #125875;
-}
-.footer_1i .hr_1 {
+  }
+
+  .footer_1i .hr_1 {
     background-color: #04455e;
-}
-.footer_1riril span {
+  }
+
+  .footer_1riril .icon-style {
+    border-radius: 100%;
+    text-align: center;
+    background-color: #ff7350;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 35px;
     height: 35px;
     line-height: 35px;
-}
-#footer p ,#footer h6{
+  }
+
+  .a {
+    color: #a3bad4;
+    text-decoration: none;
+  }
+
+  .b {
+    color: #fff;
+  }
+
+  .aab {
+    color: #fff;
+    text-align: center;
+  }
+
+  #footer p,
+  #footer h6 {
     font-size: 15px;
-}
-ul.social-network {
+  }
+
+  #footer_b {
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+    background-color: #ff7350;
+  }
+
+  ul.social-icon {
     list-style: none;
     display: block;
     margin-left: 0 !important;
     padding: 0;
 }
-ul.social-network li {
+
+ul.social-icon li {
     display: inline-block;
 }
-.social-network a.icoFacebook:hover {
-    background-color: #3B5998;
-}
-.social-network a.icoGoogle:hover {
-    background-color: #BD3518;
-}
-.social-network a.icoLinkedin:hover {
-    background-color: #007bb7;
-}
-.social-network a.icoRss:hover {
-    background-color: #F56505;
-}
-.social-network a.icoInstagram:hover {
-    background-color: #E1306C;
-}
-.social-network a.icoFacebook:hover i, .social-network a.icoGoogle:hover i, .social-network a.icoLinkedin:hover i, .social-network a.icoRss:hover i, .social-network a.icoInstagram:hover i {
-    color: #fff;
-}
-.social-circle li a {
+
+.social-icon a {
     display: inline-block;
     position: relative;
     margin: 0 auto;
@@ -206,17 +248,45 @@ ul.social-network li {
     text-align: center;
     width: 40px;
     height: 40px;
-}
-.social-circle li i {
-    line-height: 40px;
-    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.social-circle li a:hover i {
-    transform: rotate(360deg);
-    transition: all 0.2s;
-}
-.social-circle i {
+.social-icon a i {
+    line-height: 40px;
+    text-align: center;
     color: #fff;
-    transition: all 0.8s;
+    transition: color 0.8s, transform 0.2s;
 }
+
+.social-icon a:hover i {
+    color: #fff;
+}
+
+.social-icon a.Facebook:hover {
+    background-color: #3B5998;
+}
+
+.social-icon a.Google:hover {
+    background-color: #BD3518;
+}
+
+.social-icon a.Linkedin:hover {
+    background-color: #007bb7;
+}
+
+
+.social-icon a.Instagram:hover {
+    background-color: #E1306C;
+}
+
+.social-icon a:hover i {
+    transform: rotate(360deg);
+}
+
+  .group {
+    color: #000; 
+    font-weight: bold; 
+  }
+  .group:hover {
+    color: #000; 
+  }
