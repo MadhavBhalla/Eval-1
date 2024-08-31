@@ -95,6 +95,12 @@ figure.effects:hover img {
 .bg_light {
     background: #eff7ff;
 }
+.l-yellow{
+    background: #fffad1;
+}
+.l-blue{
+    color: #396cba;
+}
 hr {
     background-color: #f5e2de;
     opacity:1;
