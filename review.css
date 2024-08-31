@@ -45,7 +45,7 @@
 
 
 .fa-star, .fa-star-half-alt, .fa-star-half {
-    color: #ffbb33;
+    color: #f1d60c;
     margin-right: 5px;
 }
 
@@ -59,9 +59,9 @@
 }
 
 .btn-primary {
-    background-color: #ff7350; 
+    background: #f1d60c; 
     border: none;
-    color: white;
+    color: #112f5c !important;
     width: 120px; 
     padding: 12px 20px; 
     text-align: center;
@@ -73,7 +73,8 @@
 }
 
 .btn-primary:hover {
-    background-color: #125875; 
+    background: #112f5c;
+    color: #f1d60c !important;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-2px); 
 }
