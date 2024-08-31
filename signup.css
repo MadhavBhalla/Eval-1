@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+  width:90%;
+  height: 105%;
+  padding: 50px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: transparent;
+  color: #000;
+  border-bottom: none;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-group label {
+  font-weight: 800;
+}
+
+.form-control {
+  color: rgba(0,0,0,.87);
+  border-bottom-color: rgba(0,0,0,.42);
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0 4px 4px 0;
+  height: 38px; /* Set the height for the input field */
+}
+
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 100% !important;
+    padding: 30px;
+  }
+}
