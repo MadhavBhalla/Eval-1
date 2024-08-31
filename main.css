@@ -9,25 +9,26 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
 }
 p {
-    color: #666;
+    color: #112f5c;
     font-family: 'Roboto', sans-serif;
 }
+
 a {
-    color: #333;
+    color: #112f5c;
     text-decoration: none;
 }
 a:hover {
-    color: #ff7350;
+    color: #b1c0c4;
 }
 
 .navbar-custom {
-    background-color: #ffffff; 
+    background-color: #f0f4f6; 
     padding: 0; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .symbol {
-    color: #ff7350; 
+    color: #f1d60c; 
 }
 
 .box {
@@ -49,12 +50,12 @@ a:hover {
     color: #343a40; 
             margin-bottom: 0; 
             display: inline-block; 
-            background-color: #ff7350; 
+            background-color: #396cba; 
             padding: 1rem 1rem; 
             border-radius: 30px; 
 }
 .button {
-    background: #ff7350;
+    background: #396cba;
     color: #fff!important;
     display: inline-block;
     transition: 0.3s;
@@ -83,7 +84,7 @@ figure.effects:hover img {
     transform: scale3d(1.05, 1.05, 1);
 }
 .head1 {
-            color: #ff7350;
+            color: #396cba;
             margin-bottom: 0;
             font-size: 1em; 
         }
@@ -107,11 +108,12 @@ hr {
 }
 .font_50 {
     font-size: 50px;
+    color: #112f5c;
 }
 .line {
     height: 2px!important;
     width: 70px;
-    background-color: #ff7350;
+    background-color: #396cba;
 }
 .p_3 {
     padding-top: 30px;
@@ -122,18 +124,18 @@ hr {
     font-size: 40px;
 }
 #header .nav-link {
-    color: #000;
+    color: #112f5c;
     padding: 22px 22px;
     font-weight: bold;
 }
 #header .nav-link:hover {
-    color: #ff7350;
+    color: #396cba;
 }
 #header .nav-link:focus {
-    color: #ff7350;
+    color: #396cba;
 }
 #header .active {
-    color: #ff7350;
+    color: #112f5c;
 }
 .drop_1 {
     min-width: 220px;
@@ -142,7 +144,7 @@ hr {
     background: #fff;
     border-radius: 0;
     border: 1px solid #f5e2de;
-    border-top: 4px solid #ff7350;
+    border-top: 4px solid #396cba;
 }
 .drop_1 a {
     padding-top: 15px;
@@ -153,7 +155,7 @@ hr {
 }
 
 .drop_1 a:hover {
-    color: #ff7350;
+    color: #396cba;
     background:none;
 }
 .sticky {
@@ -167,16 +169,16 @@ hr {
 }
 
 .login {
-    color: #fff;
-    background-color: #ff7350;
+    color: #303233;
+    background-color: #f1d60c;
     padding: 25px 25px;
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
 }
 .login:hover {
-    color: #fff;
-    background-color: #225572;
+    color: #f1d60c;
+    background-color: #112f5c;
 }
 
 #header .button {
@@ -194,7 +196,7 @@ hr {
   .footer_1riril .icon-style {
     border-radius: 100%;
     text-align: center;
-    background-color: #ff7350;
+    background-color: #396cba;
     color: white;
     display: flex;
     justify-content: center;
@@ -226,7 +228,7 @@ hr {
   #footer_b {
     padding-top: 1rem;
     padding-bottom: 0.1rem;
-    background-color: #ff7350;
+    background-color: #396cba;
   }
 
   ul.social-icon {
@@ -290,99 +292,36 @@ ul.social-icon li {
   .group:hover {
     color:#000;
 }
-@media (min-width:768px) and (max-width:991px) {
-    .navbar-expand-md {
-    flex-wrap:wrap!important;
-    }
-    .navbar-brand{
-    font-size:26px;
-     }
-    #header .nav-link {
-    padding: 22px 10px;
-    font-size:13px;
-    }
-    .drop_1 {
-    left:auto!important;
-    right:0!important; 
-     }
-    #footer h3{
-    font-size:22px; 
-     }
-    #footer p{
-    font-size:14px; 
-     }
-    #footer h6{
-    font-size:14px; 
-     }
-    .footer_1riril span {
-    width: 25px;
-    height: 25px;
-    line-height: 25px;
-    font-size:12px;
-    }
-     }
-    @media (min-width:871px) and (max-width:991px) {
-    #header .nav-link {
-    padding: 22px 18px;
-    }
-     }
-    @media (min-width:992px) and (max-width:1200px) {
-    .navbar-expand-md {
-    flex-wrap:wrap!important;
-    }
-    #header .nav-link {
-    padding: 22px 14px;
-    }
-    .drop_1 {
-    left:auto!important;
-    right:0!important; 
-     }
-    .footer_1riril span {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-size:14px;
-    }
-     }
-@media screen and (max-width : 767px) {
-    .navbar-collapse {
-        max-height: 300px;
-        overflow-y: scroll; 
-        border-top: 1px solid #f5e2de;
-        margin-top: 15px;
-    }
-    
-    #header .nav-link {
-        font-size: 26px;
-        border-bottom: 1px solid #f5e2de;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin: 0!important;
-    }
-    
-    .navbar .navbar-toggler {
-        box-shadow: none!important;
-        background: #eff7ff; 
-        border: none;
-        border-radius: 0;
-        margin-top: 0;
-    }
-    
-    .line {
-        margin-left: auto;
-        margin-right: auto; 
-    }
-    
-    .navbar {
-        padding-top: 10px!important;
-        padding-bottom: 10px!important;
-    }
-    
-    .navbar-brand {
-        font-size: 28px;
-    }
-    
-    #header .button {
-        margin-top: 15px!important;
+
+.social-icon a:hover i {
+    color: #fff;
 }
+
+.social-icon a.Facebook:hover {
+    background-color: #3B5998;
 }
+
+.social-icon a.Google:hover {
+    background-color: #BD3518;
+}
+
+.social-icon a.Linkedin:hover {
+    background-color: #007bb7;
+}
+
+
+.social-icon a.Instagram:hover {
+    background-color: #E1306C;
+}
+
+.social-icon a:hover i {
+    transform: rotate(360deg);
+}
+
+  .group {
+    color: #000; 
+    font-weight: bold; 
+  }
+  .group:hover {
+    color: #000; 
+  }
