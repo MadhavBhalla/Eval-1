@@ -219,4 +219,30 @@
     color: #030d12;
     font-size: 19px;
 }
-    
+.carousel-caption{
+    text-align:left;
+    background:#00000087;
+    padding:100px 140px 0px 140px;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    color:#fff;
+     }
+    .center_home img{
+    min-height:700px;
+     }
+    .spec_1i {
+    background:#ff7350e0;
+    transition: 0.3s;
+     }
+    .spec_1i:hover {
+    background:#125875e0;
+     }
+    .spec_1io {
+    background:#ff7350;
+    transition: 0.3s; 
+     }
+    .d-block{
+        height:75vh;}
+
