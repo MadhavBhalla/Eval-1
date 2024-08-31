@@ -74,4 +74,59 @@
         object-fit: cover; 
       }
     
+      @media screen and (max-width: 767px) {
+
+        .custom-img {
+            height: auto;
+            width: 100%;
+        }
     
+        .feature_1r img {
+            padding: 10px;
+        }
+
+        .feature_1l h1 {
+            font-size: 2rem;
+        }
+    
+        .p_3 {
+            padding: 20px;
+        }
+    }
+    /* For medium screens (768px to 991px) */
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+    
+        .overview_1r img {
+            padding: 20px;
+        }
+    
+        .feature_1l h1 {
+            font-size: 2.5rem;
+        }
+    
+        .custom-img {
+            height: 150px;
+        }
+    }
+    /* For large screens (992px to 1200px) */
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+        .custom-img {
+            height: 175px;
+        }
+    
+        .feature_1r img {
+            padding: 30px;
+        }
+    
+        .feature_1l h1 {
+            font-size: 3rem;
+        }
+    
+        .feature_1li .icon-style {
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 2rem;
+        }
+    }
