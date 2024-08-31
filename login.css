@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  border-radius: 20px;
+  margin-top: 100px !important;
+  margin-bottom: 70px;
+  width: 24% !important;
+  background-color: white !important;
+  padding: 50px;
+}
+form h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.edu-tech-wrapper {
+  text-align: center; 
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #FF6F61; 
+  margin-top: 10px;
+  margin-bottom: 20px; 
+}
+
+.symbol {
+  color: #FF6F61;
+  margin-right: 10px;
+}
+
+.edu, .tech {
+  font-family: 'Jost', sans-serif; 
+  font-weight: 700;
+}
+
+.edu {
+  color: #FF6F61; 
+}
+
+.tech {
+  color: #000; 
+}
+
+
+.btn-primary {
+  width: 100%;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.input-group-text {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.form-control {
+  color: rgba(0,0,0,.87);
+  border-bottom-color: rgba(0,0,0,.42);
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0 4px 4px 0;
+  height: 38px; 
+}
+
+.input-group-prepend .input-group-text {
+  border-radius: 4px 0 0 4px;
+  height: 38px; 
+}
+
+h4 {
+  font-size: 2rem !important;
+  font-weight: 700;
+}  
+
+.form-label {
+  font-weight: 800 !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+  form {
+    width: 100% !important;
+  }
+}
+

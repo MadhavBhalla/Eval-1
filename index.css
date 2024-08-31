@@ -73,4 +73,73 @@
         width: 100%;
         object-fit: cover; 
       }
+      body {
+        background-color: #f0f4ff; /* Light blue background */
+    }
+    
+.blog-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    height: 500px; /* Fixed height for uniform size */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    position: relative; /* To position the date on top of the image */
+}
+    
+.blog-card img {
+    width: 100%;
+    height: 180px; /* Fixed height for images */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+    position: relative; /* Ensure img is positioned properly */
+}
+    
+.blog-date {
+    background-color: #ff6f61;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute; /* Position it on the image */
+    margin-top: -55px; /* Adjust position */
+    margin-left: -8px;
+    left: 10px; 
+}
+    
+.blog-content {
+    padding: 20px;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+    
+.blog-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+    
+.blog-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+    
+.blog-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    overflow: hidden; 
+}
+    
+.read-more {
+    font-weight: bold;
+    color: #ff6f61;
+    text-decoration: none;
+}
+
     
