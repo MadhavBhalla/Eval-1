@@ -74,7 +74,7 @@
         object-fit: cover; 
       }
       body {
-        background-color: #f0f4ff; /* Light blue background */
+        background-color: #f0f4ff; 
     }
     
 .blog-card {
@@ -83,18 +83,27 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 100%;
-    height: 500px; /* Fixed height for uniform size */
+    height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Distribute space between elements */
-    position: relative; /* To position the date on top of the image */
+    justify-content: space-between; 
+    position: relative; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.blog-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.2); 
 }
     
 .blog-card img {
     width: 100%;
-    height: 180px; /* Fixed height for images */
-    object-fit: cover; /* Ensure image covers the area without distortion */
-    position: relative; /* Ensure img is positioned properly */
+    height: 180px; 
+    object-fit: cover; 
+    position: relative; 
+    transition: opacity 0.3s;
+}
+.blog-card:hover img {
+    opacity: 0.9; 
 }
     
 .blog-date {
@@ -103,8 +112,8 @@
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bold;
-    position: absolute; /* Position it on the image */
-    margin-top: -55px; /* Adjust position */
+    position: absolute; 
+    margin-top: -55px; 
     margin-left: -8px;
     left: 10px; 
 }
@@ -140,6 +149,11 @@
     font-weight: bold;
     color: #ff6f61;
     text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+.read-more:hover {
+    color: #ff3b2e; 
+    text-decoration: underline; 
 }
 
     
