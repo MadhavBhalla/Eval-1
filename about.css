@@ -9,7 +9,7 @@
 .feature_1l h1 {
     font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: #fffaa1;
     margin-bottom: 15px;
     margin-left: 12px;
 }
@@ -25,11 +25,11 @@
 }
 
 .area{
-    background-color: #125875;
+    background-color: #112f5c;
 }
 
 .para1{
-    color: #96bece;
+    color: #fffaa1;
     margin-bottom: 0px;
 }
 
@@ -45,17 +45,13 @@
     position: relative;}
 
     .ab{
-        color: #fff;
-    }
-    .abc{
-        font:50px;
-        color: #fffad1;
+        color: #fffaa1;
     }
 
     .feature_1lil .icon-style {
         border-radius: 100%;
         text-align: center;
-        background-color: #ff7350; 
+        background-color: #396cba; 
         color: white;
         font-size: 1.5rem; 
         width: 3rem; 
@@ -129,4 +125,25 @@
             line-height: 50px;
             font-size: 2rem;
         }
+    }
+
+    .ko{
+        color:#112f5c;
+    }
+
+    .ko:hover{
+        color: #396cba;
+    }
+
+    .button22 {
+        background: #f1d60c;
+    color: #112f5c !important;
+        display: inline-block;
+        transition: 0.3s;
+        padding: 1.1rem 2rem;
+        border-radius: 3px;
+    }
+    .button22:hover {
+        background: #112f5c;
+    color: #f1d60c !important;
     }
