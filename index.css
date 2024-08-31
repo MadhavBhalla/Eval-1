@@ -25,11 +25,11 @@
 }
 
 .area{
-    background-color: #125875;
+    background-color: #112f5c;
 }
 
 .para1{
-    color: #96bece;
+    color: #fffad1;
     margin-bottom: 0px;
 }
 
@@ -45,17 +45,17 @@
     position: relative;}
 
     .ab{
-        color: #fff;
+        color: #f1d60c;
     }
     .abc{
         font:50px;
-        text-decoration: #fff;
+        text-decoration: #f1d60c;
     }
 
     .feature_1lil .icon-style {
         border-radius: 100%;
         text-align: center;
-        background-color: #ff7350; 
+        background-color: #396cba; 
         color: white;
         font-size: 1.5rem; 
         width: 3rem; 
@@ -107,7 +107,7 @@
 }
     
 .blog-date {
-    background-color: #ff6f61;
+    background-color: #396cba;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
@@ -147,7 +147,7 @@
     
 .read-more {
     font-weight: bold;
-    color: #ff6f61;
+    color: #396cba;
     text-decoration: none;
     transition: color 0.3s, text-decoration 0.3s;
 }
@@ -167,13 +167,13 @@
 }
 
 .about_imag1 img {
-    border: 5px solid #ff7350;
+    border: 5px solid #f1d60c;
     border-radius: 30px;
     height: 450px;
 }
 
 .about_imag2 img {
-    border: 5px solid #125875;
+    border: 5px solid #112f5c;
     border-radius: 30px;
     height: 450px;
 }
@@ -183,8 +183,8 @@
 }
 
 .button1 {
-    background: #125875;
-    color: #fff !important;
+    background: #f1d60c;
+    color: #112f5c !important;
     display: inline-block;
     transition: 0.3s;
     padding: 17.6px 32px 17.6px 32px;
@@ -193,22 +193,22 @@
 }
 
 .button1:hover {
-    background: #ff7350;
-    color: #fff !important;
+    background: #112f5c;
+    color: #f1d60c !important;
 }
 
 .number {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
-    background-color: #ff7350;
-    color: white;
+    background-color: #396cba;
+    color: #fffad1;
     font-size: 1.25rem;
 }
 
 .heading1 {
     font-weight: bold;
-    color: #ff7350;
+    color: #396cba;
 }
 .heading2 {
     font-size: 45px;
@@ -241,17 +241,19 @@
     right:30px; 
      }
     .course_1m:hover .course_1m2{
-    background:#125875;
+    background:#396cba;
     transition: 0.3s; 
+    
      }
+    
     .course_1m:hover .course_1m2 h4 a{
-    color:#fff;
+    color:#112f5c;
      }
     .course_1m:hover .course_1m2{
-    color: #96bece;
+    color: #fffad1;
      }
     .course_1m:hover .course_1m2 p {
-    color: #96bece;
+    color: #fffad1;
      }
     .course_1m:hover .course_1m2 h6 span {
     color: #fff;
