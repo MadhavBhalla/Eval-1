@@ -13,12 +13,46 @@ body {
 
 form {
   border-radius: 20px;
-  margin-top: 130px !important;
+  margin-top: 100px !important;
   margin-bottom: 70px;
   width: 24% !important;
   background-color: white !important;
   padding: 50px;
 }
+form h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.edu-tech-wrapper {
+  text-align: center; /* Centers the content */
+  font-size: 2rem; /* Matches size with the "Welcome Back" text */
+  font-weight: bold;
+  color: #FF6F61; /* Red color for the icon */
+  margin-top: 10px;
+  margin-bottom: 20px; /* Space between icon and form */
+}
+
+.symbol {
+  color: #FF6F61;
+  margin-right: 10px;
+}
+
+.edu, .tech {
+  font-family: 'Jost', sans-serif; /* Custom font for "EDU TECH" */
+  font-weight: 700;
+}
+
+.edu {
+  color: #FF6F61; /* Red color */
+}
+
+.tech {
+  color: #000; /* Black color */
+}
+
 
 .btn-primary {
   width: 100%;
@@ -28,12 +62,11 @@ form {
 }
 
 .input-group-text {
-    background-color: transparent;
-    border: none;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;
-    
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
 }
 
 .form-control {
@@ -61,7 +94,8 @@ h4 {
 }
 
 @media only screen and (max-width: 600px) {
-    form {
-      width: 100% !important;
-    }
+  form {
+    width: 100% !important;
+  }
 }
+
