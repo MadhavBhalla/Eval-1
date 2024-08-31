@@ -76,11 +76,11 @@ form h4 {
   border-bottom: 1px solid;
   border-radius: 0 4px 4px 0;
   height: 38px;
-  margin-bottom: 15px; /* Ensures equal spacing between fields */
+  margin-bottom: 15px; 
 }
 
 .mb-3.mt-5.input-icon {
-  margin-top: 15px !important; /* Reduce the top margin for the Password and Confirm Password fields */
+  margin-top: 15px !important; 
 }
 
 h4 {
@@ -94,11 +94,11 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   form {
-    width: 80% !important; /* Adjust width for smaller screens */
-    padding: 30px; /* Adjust padding for smaller screens */
+    width: 80% !important; 
+    padding: 30px; 
   }
 
   .edu-tech-wrapper {
-    font-size: 1.5rem; /* Reduce font size for smaller screens */
+    font-size: 1.5rem; 
   }
 }

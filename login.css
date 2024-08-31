@@ -93,9 +93,7 @@ h4 {
   font-weight: 800 !important;
 }
 
-/* Media Queries for Responsiveness */
 
-/* For devices with max-width 1200px */
 @media only screen and (max-width: 1200px) {
   form {
     width: 30% !important;
@@ -107,7 +105,7 @@ h4 {
   }
 }
 
-/* For devices with max-width 992px */
+
 @media only screen and (max-width: 992px) {
   form {
     width: 40% !important;
@@ -119,7 +117,7 @@ h4 {
   }
 }
 
-/* For devices with max-width 768px */
+
 @media only screen and (max-width: 768px) {
   form {
     width: 50% !important;
@@ -131,7 +129,7 @@ h4 {
   }
 }
 
-/* For devices with max-width 600px */
+
 @media only screen and (max-width: 600px) {
   form {
     width: 70% !important;
@@ -145,7 +143,7 @@ h4 {
   }
 }
 
-/* For devices with max-width 480px */
+
 @media only screen and (max-width: 480px) {
   form {
     width: 90% !important;
@@ -159,7 +157,7 @@ h4 {
   }
 }
 
-/* For devices with max-width 320px */
+
 @media only screen and (max-width: 320px) {
   form {
     width: 95% !important;
