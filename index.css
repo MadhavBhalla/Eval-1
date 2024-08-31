@@ -9,7 +9,7 @@
 .feature_1l h1 {
     font-size: 45px;
     font-weight: 700;
-    color: #fff;
+    color: #fffad1;
     margin-bottom: 15px;
     margin-left: 12px;
 }
@@ -45,12 +45,9 @@
     position: relative;}
 
     .ab{
-        color: #f1d60c;
+        color: #fffad1;
     }
-    .abc{
-        font:50px;
-        text-decoration: #f1d60c;
-    }
+   
 
     .feature_1lil .icon-style {
         border-radius: 100%;
@@ -152,7 +149,7 @@
     transition: color 0.3s, text-decoration 0.3s;
 }
 .read-more:hover {
-    color: #ff3b2e; 
+    color: #112f5c; 
     text-decoration: underline; 
 }
 
@@ -272,16 +269,21 @@
         min-height:700px;
          }
         .spec_1i {
-        background:#ff7350e0;
+        background:#f1d60c;
         transition: 0.3s;
          }
         .spec_1i:hover {
-        background:#125875e0;
+        background:#112f5c;
          }
         .spec_1io {
-        background:#ff7350;
+        background:#f1d60c;
         transition: 0.3s; 
          }
         .d-block{
             height:75vh;}
-    
+    .dark{
+        color: #112f5c;
+    }
+.spec_1i:hover .dark{
+    color: #f1d60c;
+}
