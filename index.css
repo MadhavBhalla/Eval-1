@@ -219,4 +219,41 @@
     color: #030d12;
     font-size: 19px;
 }
+
+
+/* course */
+
+.w-100{
+    height: 250px;
+    opacity: 0.85;
+    width: 20rem;
+}
+.course_1m:hover .effect-jazz.mb-0{
+    
+    transform: translateY(-5px); 
+    transition: 0.3s;
+}
+.course_1m:hover .w-100{
+    opacity: 1;
+}
+.course_1m1i1{
+    bottom:-30px; 
+    right:30px; 
+     }
+    .course_1m:hover .course_1m2{
+    background:#125875;
+    transition: 0.3s; 
+     }
+    .course_1m:hover .course_1m2 h4 a{
+    color:#fff;
+     }
+    .course_1m:hover .course_1m2{
+    color: #96bece;
+     }
+    .course_1m:hover .course_1m2 p {
+    color: #96bece;
+     }
+    .course_1m:hover .course_1m2 h6 span {
+    color: #fff;
+     }
     
