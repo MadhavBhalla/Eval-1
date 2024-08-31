@@ -223,17 +223,17 @@
 
 /* course */
 
-.w-100{
+.w-110{
     height: 250px;
     opacity: 0.85;
-    width: 20rem;
+    width: 450px;
 }
 .course_1m:hover .effect-jazz.mb-0{
     
     transform: translateY(-5px); 
     transition: 0.3s;
 }
-.course_1m:hover .w-100{
+.course_1m:hover .w-110{
     opacity: 1;
 }
 .course_1m1i1{
