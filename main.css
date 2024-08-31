@@ -34,7 +34,7 @@ a:hover {
 .box {
     padding: 30px; 
     text-align: center; 
-    background-color: #225572; 
+    background-color: #112f5c; 
 }
 
 .boxa {
@@ -44,27 +44,27 @@ a:hover {
 }
 .boxb{
     font-size: 60px;
-    color: white;
+    color: #fffad1;
 }
 .boxc{
     color: #343a40; 
             margin-bottom: 0; 
             display: inline-block; 
-            background-color: #396cba; 
+            background-color: #f1d60c; 
             padding: 1rem 1rem; 
             border-radius: 30px; 
 }
 .button {
-    background: #396cba;
-    color: #fff!important;
+    background: #f1d60c;
+    color: #112f5c!important;
     display: inline-block;
     transition: 0.3s;
     padding: 1.1rem 2rem;
     border-radius: 3px;
 }
 .button:hover {
-    background: #125875;
-    color:#fff!important;
+    background: #112f5c;
+    color:#f1d60c!important;
 }
 
 
@@ -84,16 +84,22 @@ figure.effects:hover img {
     transform: scale3d(1.05, 1.05, 1);
 }
 .head1 {
-            color: #396cba;
+            color: #f1d60c;
             margin-bottom: 0;
             font-size: 1em; 
         }
         .part1 {
         padding: 30px 0; 
-        background: #032e3f; 
+        background: #112f5c; 
     }
 .bg_light {
     background: #eff7ff;
+}
+.l-yellow{
+    background: #fffad1;
+}
+.l-blue{
+    color: #396cba;
 }
 hr {
     background-color: #f5e2de;
@@ -186,7 +192,7 @@ hr {
 }
 
   .footer_1i ul li a {
-    background: #125875;
+    background: #396cba;
   }
 
   .footer_1i .hr_1 {
@@ -207,16 +213,16 @@ hr {
   }
 
   .a {
-    color: #a3bad4;
+    color: #fffad1;
     text-decoration: none;
   }
 
   .b {
-    color: #fff;
+    color: #fffad1;
   }
 
   .aab {
-    color: #fff;
+    color: #fffad1;
     text-align: center;
   }
 
@@ -286,7 +292,7 @@ ul.social-icon li {
 }
 
   .group {
-    color: #000; 
+    color: #112f5c; 
     font-weight: bold; 
   }
   .group:hover {
