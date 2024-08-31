@@ -27,12 +27,12 @@ form h4 {
 }
 
 .edu-tech-wrapper {
-  text-align: center; /* Centers the content */
-  font-size: 2rem; /* Matches size with the "Welcome Back" text */
+  text-align: center; 
+  font-size: 2rem; 
   font-weight: bold;
-  color: #FF6F61; /* Red color for the icon */
+  color: #FF6F61; 
   margin-top: 10px;
-  margin-bottom: 20px; /* Space between icon and form */
+  margin-bottom: 20px; 
 }
 
 .symbol {
@@ -41,16 +41,16 @@ form h4 {
 }
 
 .edu, .tech {
-  font-family: 'Jost', sans-serif; /* Custom font for "EDU TECH" */
+  font-family: 'Jost', sans-serif; 
   font-weight: 700;
 }
 
 .edu {
-  color: #FF6F61; /* Red color */
+  color: #FF6F61; 
 }
 
 .tech {
-  color: #000; /* Black color */
+  color: #000; 
 }
 
 
@@ -76,12 +76,12 @@ form h4 {
   border: none;
   border-bottom: 1px solid;
   border-radius: 0 4px 4px 0;
-  height: 38px; /* Set the height for the input field */
+  height: 38px; 
 }
 
 .input-group-prepend .input-group-text {
   border-radius: 4px 0 0 4px;
-  height: 38px; /* Set the height for the icon wrapper */
+  height: 38px; 
 }
 
 h4 {
@@ -92,6 +92,7 @@ h4 {
 .form-label {
   font-weight: 800 !important;
 }
+
 
 @media only screen and (max-width: 600px) {
   form {

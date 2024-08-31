@@ -55,6 +55,7 @@ body {
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
   color: white;
   font-weight: 700;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
