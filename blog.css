@@ -78,7 +78,7 @@ header h1 {
 .cards img:hover {
     opacity: 0.9; 
     transform: scale(1.05); 
-    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 h2, h3, h5 {
