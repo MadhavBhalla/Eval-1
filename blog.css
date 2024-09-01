@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f1f1f1;
-   
 }
 
 * {
@@ -11,15 +10,22 @@ body {
 
 header {
     background-color: #ffffff;
-   text-align: center;
-  
+    text-align: center;
 }
 
 header h1 {
     font-size: 40px;
-    color: #000000;
+    color: #112f5c;
     margin: 0;
-   
+}
+
+h1, h2, h3, h5 {
+    color: #112f5c; 
+    transition: color 0.3s ease; 
+}
+
+h1:hover, h2:hover, h3:hover, h5:hover {
+    color: #396cba; 
 }
 
 .row {
@@ -44,11 +50,21 @@ header h1 {
     margin-bottom: 20px; 
     animation: fadeInCard 0.8s ease-in-out; 
 }
+
 .card:hover {
-    background-color: #e0dcdc; 
+    background-color: #396cba; 
     box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
     transform: translateY(-5px); 
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
+}
+
+.card:hover h1, 
+.card:hover h2, 
+.card:hover h3, 
+.card:hover h5, 
+.card:hover p, 
+.card:hover span {
+    color: #fffad1; /* Change text color inside card on hover */
 }
 
 .card img {
@@ -57,34 +73,57 @@ header h1 {
     margin-bottom: 15px;
     border-radius: 30px;
 }
+
 .cards {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px; 
     animation: fadeInCard 0.8s ease-in-out; 
 }
+
 .cards:hover {
     background-color: #e0dcdc;
     box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
     transform: translateY(-5px); 
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
 }
+
+.cards:hover h1, 
+.cards:hover h2, 
+.cards:hover h3, 
+.cards:hover h5, 
+.cards:hover p, 
+.cards:hover span {
+    color: #fffad1; /* Change text color inside cards on hover */
+}
+
 .cards img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
     border-radius: 30px;
 }
+
 .cards img:hover {
     opacity: 0.9; 
     transform: scale(1.05); 
-    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+}
+/* Custom Button Styling */
+.custom-btn {
+    width: 100px;
+    background-color: #fdc60c; /* Default Bootstrap background color */
+    color: #112f5cf; /* Default Bootstrap text color */
+    border: none;
+    text-align: center;
 }
 
-h2, h3, h5 {
-    color: #000000;
-    margin-bottom: 15px;
+/* Hover Effect with Higher Specificity */
+.btn.custom-btn:hover {
+    background-color: #fdc60c; /* New background color on hover */
+    color: #112f5c; /* New text color on hover */
 }
+
 .post-meta {
     display: flex;
     align-items: center; 
@@ -96,16 +135,17 @@ h2, h3, h5 {
     display: flex;
     align-items: center; 
     gap: 5px; 
+    color: #396cba;
 }
 
 .meta-item i {
-    color: #FF5722; 
+    color: #396cba; 
     font-size: 16px;
 }
 
 .meta-item span {
     font-size: 14px; 
-    color: #333333; 
+    color: #112f5c; 
 }
 
 @media screen and (max-width: 480px) {
@@ -118,3 +158,5 @@ h2, h3, h5 {
         margin-bottom: 10px; 
     }
 }
+
+
