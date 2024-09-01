@@ -70,7 +70,7 @@
         width: 80px;
         height: 80px;
         line-height: 80px;
-        background-color: #ff7f50;
+        background-color: #396cba; 
         color: #ffffff;
         font-size: 2rem;
         border-radius: 50%;
@@ -116,13 +116,14 @@ color: #BD3518;
   font-weight: bold;
   margin-bottom: 20px;
   transition: color 0.3s ease;
+  color: #112f5c;
 }
 .contact-form h1:hover {
-  color: #ff6607;
+  color: #396cba;
   text-shadow: 0px 0px ;
 }
 .contact-form h1:hover .col_oran {
-  color: orangered;
+  color: #396cba;
 }
 .col_oran {
   transition: color 0.3s ease;
@@ -147,9 +148,8 @@ color: #BD3518;
 }
 
 .btn-primary {
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  color: #fff;
+  background: #f1d60c;
+    color: #112f5c !important;
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 5px;
@@ -157,22 +157,19 @@ color: #BD3518;
 }
 
 .btn-primary:hover {
-  background-color: #23527c;
-  border-color: #1d4e7a;
+  background: #112f5c;
+    color: #f1d60c !important;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .form-group .fa {
   position: absolute;
-  top: 10px;
+  top: 15px;
   right: 10px;
   font-size: 18px;
-  color: orangered;
+  color: #396cba;
   transition: color 0.3s ease;
 }
 
-.form-group .fa:hover {
-  color: #666;
-}
 
 @media (max-width: 768px) {
   .contact-form {
