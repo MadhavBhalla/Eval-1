@@ -238,7 +238,7 @@
     right:30px; 
      }
     .course_1m:hover .course_1m2{
-    background:#396cba;
+    background:#e0dcdc;
     transition: 0.3s; 
     
      }
@@ -250,7 +250,7 @@
     color: #fffad1;
      }
     .course_1m:hover .course_1m2 p {
-    color: #fffad1;
+    color: #000;
      }
     .course_1m:hover .course_1m2 h6 span {
     color: #fff;
