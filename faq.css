@@ -4,7 +4,7 @@
 #faq-head{
     text-align: center;
     margin: 3rem 5rem;
-    background-color:rgb(255, 248, 239) ;
+    background-color: rgb(255, 248, 239);
     padding: 2rem 12rem;
     border-radius: 2rem;
 }
@@ -21,6 +21,15 @@ h3{
 .accordion-button.collapsed:hover{
     color: black;
     font-weight: 500;
+}
+
+.list-group-item.list-group-item-action:hover{
+    background-color: #112f5c;
+    color: #f1d60c;
+}
+.accordion-button.collapsed:hover {
+    background-color: #112f5c;
+    color: #f1d60c;
 }
 @media screen and (max-width: 426px){
     #faq-head{

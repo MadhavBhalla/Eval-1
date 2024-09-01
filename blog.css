@@ -78,7 +78,7 @@ header h1 {
 .cards img:hover {
     opacity: 0.9; 
     transform: scale(1.05); 
-    transition: transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 h2, h3, h5 {
@@ -99,15 +99,30 @@ h2, h3, h5 {
 }
 
 .meta-item i {
-    color: #FF5722; 
+    color: #396cba; 
     font-size: 16px;
 }
 
 .meta-item span {
     font-size: 14px; 
-    color: #333333; 
+    color: #396cba; 
 }
-
+.btn-primary{
+    
+  color: #112f5c;
+  background: #f1d60c;
+border: none;
+  
+}
+.btn-primary:hover{
+    background-color: #112f5c;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    width: 51%;
+    opacity: 2;
+    color: #f1d60c;
+   
+}
 @media screen and (max-width: 480px) {
     .post-meta {
         flex-direction: column; 

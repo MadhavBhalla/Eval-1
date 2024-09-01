@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
 * {
   padding: 0;
   margin: 0;
@@ -13,11 +11,21 @@ body {
 
 form {
   border-radius: 20px;
-  margin-top: 100px !important;
+  margin-top: 100px ;
   margin-bottom: 70px;
-  width: 30% !important;
-  background-color: white !important;
+  width: 30% ;
+  background-color: white ;
   padding: 40px;
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeInScaleUp 0.5s forwards;
+}
+
+@keyframes fadeInScaleUp {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 form h4 {
@@ -34,10 +42,11 @@ form h4 {
   color: #FF6F61; 
   margin-top: 10px;
   margin-bottom: 20px; 
+  animation: fadeInSlideUp 0.75s ease-out;
 }
 
 .symbol {
-  color: #FF6F61;
+  color: #f1d60c;
   margin-right: 10px;
 }
 
@@ -47,18 +56,31 @@ form h4 {
 }
 
 .edu {
-  color: #FF6F61; 
+  color: #112f5c; 
 }
 
 .tech {
-  color: #000; 
+  color: #f1d60c; 
 }
 
-.btn-primary {
-  width: 100%;
-  border: none;
-  border-radius: 50px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+.buttonw {
+transition: 0.3s;
+padding: 10px 10px;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 150px;
+border-radius: 10px;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.363);
+background-color: #f1d60c;
+color: #112f5c !important;
+display: block;
+border: 1px solid #112f5c;
+}
+
+.buttonw:hover {
+  background: #112f5c;
+color: #f1d60c !important;
 }
 
 .input-group-text {
@@ -72,11 +94,16 @@ form h4 {
 .form-control {
   color: rgba(0,0,0,.87);
   border-bottom-color: rgba(0,0,0,.42);
-  box-shadow: none !important;
+  box-shadow: none ;
   border: none;
   border-bottom: 1px solid;
   border-radius: 0 4px 4px 0;
   height: 38px; 
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-bottom-color: #FF6F61;
 }
 
 .input-group-prepend .input-group-text {
@@ -85,18 +112,35 @@ form h4 {
 }
 
 h4 {
-  font-size: 2rem !important;
+  font-size: 2rem ;
   font-weight: 700;
-}  
-
-.form-label {
-  font-weight: 800 !important;
+  color: #112f5c;
+  animation: fadeInSlideUp 0.75s ease-out;
 }
 
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h4:hover {
+  color: #396cba;
+  transform: scale(1.05);
+}
+
+.form-label {
+  font-weight: 800 ;
+}
 
 @media only screen and (max-width: 1200px) {
   form {
-    width: 30% !important;
+    width: 30%;
     padding: 40px;
   }
 
@@ -105,10 +149,9 @@ h4 {
   }
 }
 
-
 @media only screen and (max-width: 992px) {
   form {
-    width: 40% !important;
+    width: 40% ;
     padding: 35px;
   }
 
@@ -117,25 +160,26 @@ h4 {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   form {
-    width: 50% !important;
+    width: 50% ;
     padding: 30px;
   }
 
   form h4 {
     font-size: 1.5rem;
   }
+  .buttonw {
+width: 80%;
 }
-
+}
 
 @media only screen and (max-width: 600px) {
   form {
-    width: 70% !important;
+    width: 70% ;
     padding: 20px;
-    margin-top: 50px !important;
-    margin-bottom: 50px !important;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
   }
 
   form h4 {
@@ -143,32 +187,32 @@ h4 {
   }
 }
 
-
 @media only screen and (max-width: 480px) {
   form {
-    width: 90% !important;
+    width: 90% ;
     padding: 15px;
-    margin-top: 30px !important;
-    margin-bottom: 30px !important;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
   }
 
   form h4 {
     font-size: 1.2rem;
   }
-}
 
+  .buttonw {
+width: 90%;
+}
+}
 
 @media only screen and (max-width: 320px) {
   form {
-    width: 95% !important;
+    width: 95%;
     padding: 10px;
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
   }
 
   form h4 {
     font-size: 1rem;
   }
 }
-
-

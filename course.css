@@ -37,14 +37,18 @@
 }
 .btn-primary{
     width: 50%;
+  color: #112f5c;
+  background: #f1d60c;
+
   
 }
 .btn-primary:hover{
-    background-color:rgb(2, 5, 99) ;
+    background-color: #112f5c;
     transition-duration: 0.7s;
     transition-timing-function: ease-out;
     width: 51%;
     opacity: 2;
+    color: #f1d60c;
    
 }
 
