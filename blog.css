@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: #f1f1f1;
+   
 }
 
 * {
@@ -10,22 +11,15 @@ body {
 
 header {
     background-color: #ffffff;
-    text-align: center;
+   text-align: center;
+  
 }
 
 header h1 {
     font-size: 40px;
-    color: #112f5c;
+    color: #000000;
     margin: 0;
-}
-
-h1, h2, h3, h5 {
-    color: #112f5c; 
-    transition: color 0.3s ease; 
-}
-
-h1:hover, h2:hover, h3:hover, h5:hover {
-    color: #396cba; 
+   
 }
 
 .row {
@@ -50,21 +44,11 @@ h1:hover, h2:hover, h3:hover, h5:hover {
     margin-bottom: 20px; 
     animation: fadeInCard 0.8s ease-in-out; 
 }
-
 .card:hover {
-    background-color: #396cba; 
+    background-color: #e0dcdc; 
     box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
     transform: translateY(-5px); 
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
-}
-
-.card:hover h1, 
-.card:hover h2, 
-.card:hover h3, 
-.card:hover h5, 
-.card:hover p, 
-.card:hover span {
-    color: #fffad1; 
 }
 
 .card img {
@@ -73,57 +57,34 @@ h1:hover, h2:hover, h3:hover, h5:hover {
     margin-bottom: 15px;
     border-radius: 30px;
 }
-
 .cards {
     background-color: #ffffff;
     padding: 20px;
     margin-bottom: 20px; 
     animation: fadeInCard 0.8s ease-in-out; 
 }
-
 .cards:hover {
     background-color: #e0dcdc;
     box-shadow: 0 4px 8px rgba(184, 183, 183, 0.2); 
     transform: translateY(-5px); 
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; 
 }
-
-.cards:hover h1, 
-.cards:hover h2, 
-.cards:hover h3, 
-.cards:hover h5, 
-.cards:hover p, 
-.cards:hover span {
-    color: #fffad1; 
-}
-
 .cards img {
     width: 100%;
     height: auto;
     margin-bottom: 15px;
     border-radius: 30px;
 }
-
 .cards img:hover {
     opacity: 0.9; 
     transform: scale(1.05); 
     transition: transform 0.3s, opacity 0.3s;
 }
 
-.custom-btn {
-    width: 100px;
-    background-color: #fdc60c; 
-    color: #112f5c; 
-    border: none;
-    text-align: center;
+h2, h3, h5 {
+    color: #000000;
+    margin-bottom: 15px;
 }
-
-
-.btn.custom-btn:hover {
-    background-color: #fdc60c; 
-    color: #112f5c; 
-}
-
 .post-meta {
     display: flex;
     align-items: center; 
@@ -135,7 +96,6 @@ h1:hover, h2:hover, h3:hover, h5:hover {
     display: flex;
     align-items: center; 
     gap: 5px; 
-    color: #396cba;
 }
 
 .meta-item i {
@@ -145,7 +105,23 @@ h1:hover, h2:hover, h3:hover, h5:hover {
 
 .meta-item span {
     font-size: 14px; 
-    color: #112f5c; 
+    color: #396cba; 
+}
+.btn-primary{
+    
+  color: #112f5c;
+  background: #f1d60c;
+border: none;
+  
+}
+.btn-primary:hover{
+    background-color: #112f5c;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    width: 51%;
+    opacity: 2;
+    color: #f1d60c;
+   
 }
 @media screen and (max-width: 480px) {
     .post-meta {
@@ -157,5 +133,3 @@ h1:hover, h2:hover, h3:hover, h5:hover {
         margin-bottom: 10px; 
     }
 }
-
-

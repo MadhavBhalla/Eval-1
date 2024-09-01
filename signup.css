@@ -11,15 +11,9 @@ body {
 
 form {
   border-radius: 20px;
-<<<<<<< HEAD
-  margin-top: 100px !important;
-  margin-bottom: 130px;
-  width: 30% !important;
-=======
   margin-top: 70px !important;
   width: 90% !important;
   max-width: 500px;
->>>>>>> 08a7c9f35ec6ab5607b49ca1b99d2d3233fa85d2
   background-color: white !important;
   padding: 40px;
   margin-left: auto;
