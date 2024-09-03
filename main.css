@@ -298,40 +298,7 @@ ul.social-icon li {
   .group:hover {
     color:#000;
 }
-
-.social-icon a:hover i {
-    color: #fff;
-}
-
-.social-icon a.Facebook:hover {
-    background-color: #3B5998;
-}
-
-.social-icon a.Google:hover {
-    background-color: #BD3518;
-}
-
-.social-icon a.Linkedin:hover {
-    background-color: #007bb7;
-}
-
-
-.social-icon a.Instagram:hover {
-    background-color: #E1306C;
-}
-
-.social-icon a:hover i {
-    transform: rotate(360deg);
-}
-
-  .group {
-    color: #000; 
-    font-weight: bold; 
-  }
-  .group:hover {
-    color: #000; 
-  }
-  @media (min-width:768px) and (max-width:991px) {
+ @media (min-width:768px) and (max-width:991px) {
     .navbar-expand-md {
     flex-wrap:wrap!important;
     }
