@@ -9,7 +9,7 @@
 .feature_1l h1 {
     font-size: 45px;
     font-weight: 700;
-    color: #fffaa1;
+    color: #fffad1;
     margin-bottom: 15px;
     margin-left: 12px;
 }
@@ -18,19 +18,12 @@
     margin-left: 10px;
 }
 
-.feature_1li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
 .area{
     background-color: #112f5c;
 }
 
-.para1{
-    color: #fffaa1;
-    margin-bottom: 0px;
+.para1 ,.ab{
+    color: #fffad1;
 }
 
 .feature_1r img {
@@ -40,13 +33,6 @@
     padding-left: 15px;
     width: 100%;
 }
-
-.popular_1i{ 
-    position: relative;}
-
-    .ab{
-        color: #fffaa1;
-    }
 
     .feature_1lil .icon-style {
         border-radius: 100%;
@@ -69,6 +55,34 @@
         width: 100%;
         object-fit: cover; 
       }
+
+      
+    .ko{
+        color:#112f5c;
+    }
+
+    .ko:hover{
+        color: #396cba;
+    }
+
+    .button22 {
+        background: #f1d60c;
+        color: #112f5c !important;
+        display: inline-block;
+        transition: 0.3s;
+        padding: 1.1rem 2rem;
+        border-radius: 3px;
+    }
+    .button22:hover {
+        background: #112f5c;
+        color: #f1d60c !important;
+    }
+    .overview-right img {
+        width: 100%;
+        height: auto;
+        padding: 20px; 
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    }
     
       @media screen and (max-width: 767px) {
 
@@ -92,7 +106,7 @@
     /* For medium screens (768px to 991px) */
     @media screen and (min-width: 768px) and (max-width: 991px) {
     
-        .overview_1r img {
+        .overview-right img {
             padding: 20px;
         }
     
@@ -125,25 +139,4 @@
             line-height: 50px;
             font-size: 2rem;
         }
-    }
-
-    .ko{
-        color:#112f5c;
-    }
-
-    .ko:hover{
-        color: #396cba;
-    }
-
-    .button22 {
-        background: #f1d60c;
-    color: #112f5c !important;
-        display: inline-block;
-        transition: 0.3s;
-        padding: 1.1rem 2rem;
-        border-radius: 3px;
-    }
-    .button22:hover {
-        background: #112f5c;
-    color: #f1d60c !important;
     }

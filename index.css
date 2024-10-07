@@ -153,66 +153,64 @@
     text-decoration: underline; 
 }
 
-.start{
-    padding: 16px; 
-    background-color: #eff7ff; 
-}
-.about_h1rill span {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+.padding1 {
+    padding: 16px;
+    background-color: #eff7ff;
 }
 
-.about_imag1 img {
+.image-container2 img {
     border: 5px solid #f1d60c;
     border-radius: 30px;
     height: 450px;
 }
 
-.about_imag2 img {
+.image-container1 img {
     border: 5px solid #112f5c;
     border-radius: 30px;
     height: 450px;
 }
-
-.about_imag2 {
+.image-right {
     padding-top: 180px;
 }
 
-.button1 {
+.btn-custom {
     background: #f1d60c;
     color: #112f5c !important;
-    display: inline-block;
-    transition: 0.3s;
-    padding: 17.6px 32px 17.6px 32px;
+    padding: 17.6px 32px;
     border-radius: 3px;
     text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
 }
 
-.button1:hover {
+.btn-custom:hover {
     background: #112f5c;
     color: #f1d60c !important;
 }
 
-.number {
+.number-circle {
     display: inline-block;
     text-align: center;
     border-radius: 50%;
     background-color: #396cba;
     color: #fffad1;
     font-size: 1.25rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
 }
 
 .heading1 {
     font-weight: bold;
     color: #396cba;
 }
-.heading2 {
-    font-size: 45px;
-    margin-top: 1rem; 
-  }
 
-.text1{
+.heading2{
+    font-size: 45px;
+    margin-top: 1rem;
+}
+
+.text1 {
     color: #030d12;
     font-size: 19px;
 }
@@ -238,7 +236,7 @@
     right:30px; 
      }
     .course_1m:hover .course_1m2{
-    background:#396cba;
+    background:#e0dcdc;
     transition: 0.3s; 
     
      }
@@ -250,7 +248,7 @@
     color: #fffad1;
      }
     .course_1m:hover .course_1m2 p {
-    color: #fffad1;
+    color: #000;
      }
     .course_1m:hover .course_1m2 h6 span {
     color: #fff;
