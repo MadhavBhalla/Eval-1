@@ -96,25 +96,6 @@
             <div class="col-md-4 mb-4 mb-md-0">
               <div class="card">
                 <div class="card-body">
-                    <img src="images/review/image1.webp">
-                  </div>
-                  <h5 class="fw-bold text-dark">Rakesh</h5>
-                  <h6 class="fw-bold my-4">IT Company</h6>
-                  <ul class="mb-4 p-0 m-0 d-flex justify-content-center">
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star fa-sm"></i></li>
-                    <li><i class="fas fa-star-half-alt fa-sm"></i></li>
-                  </ul>
-                  <p>
-                    This site transformed my approach to budget management. The courses are comprehensive and easy to follow, providing invaluable insights that have optimized my financial planning.
-                  </p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4 mb-md-0">
-              <div class="card">
-                <div class="card-body">
                     <img src="images/review/image2.webp">
                   </div>
                   <h5 class="fw-bold text-dark">kashish</h5>
@@ -131,6 +112,26 @@
                   </p>
               </div>
             </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <div class="card">
+                <div class="card-body">
+                    <img src="images/review/image1.webp">
+                  </div>
+                  <h5 class="fw-bold text-dark">Rakesh</h5>
+                  <h6 class="fw-bold my-4">IT Company</h6>
+                  <ul class="mb-4 p-0 m-0 d-flex justify-content-center">
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star fa-sm"></i></li>
+                    <li><i class="fas fa-star-half-alt fa-sm"></i></li>
+                  </ul>
+                  <p>
+                    This site transformed my approach to budget management. The courses are comprehensive and easy to follow, providing invaluable insights that have optimized my financial planning.
+                  </p>
+                </div>
+            </div>
+            
             <div class="col-md-4 mb-0">
               <div class="card">
                 <div class="card-body">
@@ -154,18 +155,72 @@
         </div>
       </section>
 
-      <section>
-  <div class="container py-3">
-    <div class="row d-flex justify-content-center">
-      <div class="col-md-10 col-xl-80 text-center">
-        <p class="mb-2 pb-0 mb-md-30 pb-md-0">
-          Add your own review about our site
-        </p>
-        <a href="reviewform.html" class="btn btn-primary" style="width: 100px;">Review</a>
-      </div>
-    </div>
-  </div>
-</section>
+      
+
+<div class="container1">
+    <h2>Customer Review Form</h2>
+    <p class="text-center">We would love to hear about your experience.</p>
+
+    <form id="reviewForm">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your full name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="profession">Profession</label>
+            <input type="text" class="form-control" id="profession" placeholder="Your Profession" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="example@domain.com" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="Review">Your Review</label>
+            <textarea class="form-control" id="Review" rows="3" placeholder="Share your experience with us..." required></textarea>
+        </div>
+        
+        <div class="form-group">
+            <label>Overall Rating</label>
+            <p>Rate Your Experience</p>
+            <div class="star-rating">
+                <input type="radio" id="5-stars" name="rating" value="5" aria-label="5 stars">
+                <label for="5-stars">&#9733;</label>
+                <input type="radio" id="4-stars" name="rating" value="4" aria-label="4 stars">
+                <label for="4-stars">&#9733;</label>
+                <input type="radio" id="3-stars" name="rating" value="3" aria-label="3 stars">
+                <label for="3-stars">&#9733;</label>
+                <input type="radio" id="2-stars" name="rating" value="2" aria-label="2 stars">
+                <label for="2-stars">&#9733;</label>
+                <input type="radio" id="1-star" name="rating" value="1" aria-label="1 star">
+                <label for="1-star">&#9733;</label>
+            </div>
+        </div>        
+        <div class="form-group">
+            <label>Would you recommend us?</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="recommend" id="recommendYes" value="yes" required>
+                <label class="form-check-label" for="recommendYes">Yes</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="recommend" id="recommendNo" value="no" required>
+                <label class="form-check-label" for="recommendNo">No</label>
+            </div>
+        </div>
+        
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="consent" required>
+            <label class="form-check-label" for="consent">I consent to the use of my Review as outlined in the Review Page.</label>
+        </div>
+        
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <div id="message" class="text-center mt-3"></div>
+</div>
 
 
 <section id="footer" class="footer-section">
@@ -300,6 +355,46 @@
           </p>
       </div>
   </div>
-</section>     
+</section>   
+<script>
+document.getElementById('reviewForm').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent page reload on form submission
+
+    // Capture form data
+    const name = document.getElementById('name').value ;
+    const profession = document.getElementById('profession').value ;
+    const reviewText = document.getElementById('Review').value;
+    const rating = document.querySelector('input[name="rating"]:checked').value ;
+
+    
+
+    // Find the first available testimonial card to update
+    const cards = document.querySelectorAll('.testimonial-section .card');
+
+    const availableCard = Array.from(cards).find(card => {
+        return card.querySelector('h5').innerText === ''; // Checks if the name field is empty
+    }) || cards[1]; // Fallback to the first card if no empty one is found
+
+    // Update the card with the submitted data
+    availableCard.querySelector('h5').innerText = name;
+    availableCard.querySelector('h6').innerText = profession;
+    availableCard.querySelector('p').innerText = reviewText;
+
+    const ratingContainer = availableCard.querySelector('ul');
+    ratingContainer.innerHTML = ''; // Clear existing stars
+
+    // Add the new star rating
+    for (let i = 0; i < 5; i++) {
+        const star = document.createElement('li');
+        star.innerHTML = i < rating ? '<i class="fas fa-star fa-sm"></i>' : '<i class="far fa-star fa-sm"></i>';
+        ratingContainer.appendChild(star);
+    }
+
+    // Clear the form and display a success message
+    document.getElementById('reviewForm').reset();
+    document.getElementById('message').innerText = 'Thank you for your review!';
+});
+
+</script>  
 </body>
 </html>
