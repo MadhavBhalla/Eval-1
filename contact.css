@@ -10,6 +10,10 @@
   .contact_1io{
   background:#fff7ef; 
    }
+   
+.font_60 {
+  font-size: 60px;
+}
   @media screen and (max-width : 767px){
   .contact_1i {
   margin-top:10px;

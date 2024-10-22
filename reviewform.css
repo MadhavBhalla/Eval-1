@@ -64,7 +64,7 @@ textarea {
 
 button[type="submit"] {
     background: #f1d60c;
-color: #112f5c !important;
+    color: #112f5c !important;
     border: none;
     padding: 10px 20px;
     font-size: 1.2rem;
@@ -75,14 +75,14 @@ color: #112f5c !important;
 
 button[type="submit"]:hover {
     background: #112f5c;
-color: #f1d60c !important;
+    color: #f1d60c !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-.form-check-input:checked , .form-check-label::before {
+.form-check-input:checked, .form-check-label::before {
     background-color: #007bff;
 }
 
-.form-check-input:focus , .form-check-label::before {
+.form-check-input:focus, .form-check-label::before {
     border-color: #007bff;
 }

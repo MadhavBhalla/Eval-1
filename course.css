@@ -29,6 +29,7 @@
 .card-img-top{
     height: 250px;
     opacity: 0.87;
+    object-fit: cover;
 }
     
 .card-img-top:hover{
@@ -56,7 +57,7 @@
     display: block;
     margin: auto;
 }
-@media screen and (max-width: 426px){
+@media screen and (max-width: 427px){
     .main{
        flex-direction: column ; 
        gap: 50px;

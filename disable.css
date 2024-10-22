@@ -1,0 +1,87 @@
+#disable {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .disable-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .disable-card {
+    display: flex;
+    width: calc(50% - 10px);
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid#ddd;
+  }
+  
+  .image-container {
+    width: 50%;
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 170px;
+  }
+  
+  .disable-info {
+    width: 50%;
+    padding-left: 20px;
+  }
+  
+  .disable-info h5 {
+    font-size: 18px;
+  }
+  
+  .disable-info p {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .disable-info a {
+    text-decoration: none;
+    color: #112f5c;
+  }
+  
+  .disable-info a:hover {
+    text-decoration: none;
+    color: #396cba;
+  }
+  
+  .button_1 {
+    color: #112f5c;
+    background: #f1d60c;
+    display: inline-block;
+    transition: 0.3s;
+    padding: 0.25rem 2rem; 
+  }
+  
+  .button_1:hover {
+    background: #112f5c;
+    color: #f1d60c !important;
+  }
+  
+  @media (max-width: 768px) {
+    .disable-card {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .image-container, .disable-info {
+      width: 100%;
+    }
+  
+    .disable-info {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
