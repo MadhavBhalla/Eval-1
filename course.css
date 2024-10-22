@@ -29,6 +29,7 @@
 .card-img-top{
     height: 250px;
     opacity: 0.87;
+    object-fit: cover;
 }
     
 .card-img-top:hover{

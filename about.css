@@ -77,6 +77,12 @@
         background: #112f5c;
         color: #f1d60c !important;
     }
+    .overview-right img {
+        width: 100%;
+        height: auto;
+        padding: 20px; 
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    }
     
       @media screen and (max-width: 767px) {
 
@@ -100,7 +106,7 @@
     /* For medium screens (768px to 991px) */
     @media screen and (min-width: 768px) and (max-width: 991px) {
     
-        .overview_1r img {
+        .overview-right img {
             padding: 20px;
         }
     
