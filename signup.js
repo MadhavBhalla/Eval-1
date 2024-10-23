@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
       }
   
-      alert("Signed up successfully!");
+      alert("Signed up successfully!!");
   
       form.reset();
     });
