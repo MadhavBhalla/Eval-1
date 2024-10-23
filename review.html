@@ -358,9 +358,21 @@
 </section>   
 <script>
 document.getElementById('reviewForm').addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent page reload on form submission
+    event.preventDefault();
 
-    // Capture form data
+    const ratingSelected = document.querySelector('input[name="rating"]:checked');
+            if (!ratingSelected) {
+                alert('Please provide a rating.');
+                return;
+            }
+
+            const consentChecked = document.getElementById('consent').checked;
+            if (!consentChecked) {
+                alert('You must give consent to submit the form.');
+                return;
+            }
+    
+
     const name = document.getElementById('name').value ;
     const profession = document.getElementById('profession').value ;
     const reviewText = document.getElementById('Review').value;
@@ -368,29 +380,28 @@ document.getElementById('reviewForm').addEventListener('submit', function (event
 
     
 
-    // Find the first available testimonial card to update
     const cards = document.querySelectorAll('.testimonial-section .card');
 
     const availableCard = Array.from(cards).find(card => {
-        return card.querySelector('h5').innerText === ''; // Checks if the name field is empty
-    }) || cards[1]; // Fallback to the first card if no empty one is found
+        return card.querySelector('h5').innerText === ''; 
+    }) || cards[1]; 
 
-    // Update the card with the submitted data
+    
     availableCard.querySelector('h5').innerText = name;
     availableCard.querySelector('h6').innerText = profession;
     availableCard.querySelector('p').innerText = reviewText;
 
     const ratingContainer = availableCard.querySelector('ul');
-    ratingContainer.innerHTML = ''; // Clear existing stars
+    ratingContainer.innerHTML = ''; 
 
-    // Add the new star rating
+    
     for (let i = 0; i < 5; i++) {
         const star = document.createElement('li');
         star.innerHTML = i < rating ? '<i class="fas fa-star fa-sm"></i>' : '<i class="far fa-star fa-sm"></i>';
         ratingContainer.appendChild(star);
     }
 
-    // Clear the form and display a success message
+    
     document.getElementById('reviewForm').reset();
     document.getElementById('message').innerText = 'Thank you for your review!';
 });
