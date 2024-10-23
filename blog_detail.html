@@ -1,106 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edutech</title>
-	<link rel="icon" type="image/x-icon" href="/images/about/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/images/about/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="blog_detail.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="about.css">
-   </head>
+</head>
+
 <body>
     <section id="header">
-      <nav class="navbar navbar-expand-md navbar-light navbar-custom" id="navbar_sticky">
-          <div class="container-xl">
-            <a class="navbar-brand p-0  fw-bold text-uppercase" href="index.html">
-              <i class="fas fa-graduation-cap symbol"></i> EDU<span class="symbol">TECH</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mb-0 ms-auto">
-                
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                </li>
-                 
-                <li class="nav-item">
-                  <a class="nav-link active" href="about.html">About </a>
-                </li>
-                
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Courses
-                  </a>
-                  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="course.html"><i class="fas fa-chevron-right font_8 me-1 align-middle"></i> Courses</a></li>
-                    <li><a class="dropdown-item border-0" href="detail.html"><i class="fas fa-chevron-right font_8 me-1 align-middle"></i> Course Detail</a></li>
-                  </ul>
-                </li>
-        
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Blog
-                  </a>
-                  <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="blog.html"><i class="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog</a></li>
-                    <li><a class="dropdown-item border-0" href="blog_detail.html"><i class="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog Detail</a></li>
-                  </ul>
-                </li>
-                
-                <li class="nav-item">
-					<a class="nav-link" aria-current="page" href="Review.html">Review</a>
-				  </li>
-        
-                <li class="nav-item">
-					<a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
-				  </li>
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="Faq.html">Faq</a>
-            </li>
-                
-        <li class="nav-item">
-                  <a class="login" aria-current="page" href="login.html">Login/Sign-up</a>
-                </li>
-              </ul>
-               
-            </div>
-          </div>
-        </nav>
-        </section>
-
-        <section id="center" class="box">
+        <nav class="navbar navbar-expand-md navbar-light navbar-custom" id="navbar_sticky">
             <div class="container-xl">
-               <div class="boxa">
-              <div class="col-md-12">
-                <h1 class="boxb">Blog Detail</h1>
-                <h6 class="boxc"><a class="b" href="#">Home &nbsp;|</a>&nbsp;Blog Detail</h6>
-              </div>
-           </div>
-            </div>
-           </section>
+                <a class="navbar-brand p-0  fw-bold text-uppercase" href="index.html">
+                    <i class="fas fa-graduation-cap symbol"></i> EDU<span class="symbol">TECH</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-0 ms-auto">
 
-           <!-- Main Content and Sidebar -->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About </a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="course.html"><i
+                                            class="fas fa-chevron-right font_8 me-1 align-middle"></i> Courses</a></li>
+                                <li><a class="dropdown-item border-0" href="detail.html"><i
+                                            class="fas fa-chevron-right font_8 me-1 align-middle"></i> Course Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="blog.html"><i
+                                            class="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog</a></li>
+                                <li><a class="dropdown-item border-0" href="blog_detail.html"><i
+                                            class="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog Detail</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Review.html">Review</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="Faq.html">Faq</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="login" aria-current="page" href="login.html">Login/Sign-up</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </section><br><br><br>
+
+    <section id="center" class="box">
+        <div class="container-xl">
+            <div class="boxa">
+                <div class="col-md-12">
+                    <h1 class="boxb">Blog Detail</h1>
+                    <h6 class="boxc"><a class="b" href="blog_detail.css">Home &nbsp;|</a>&nbsp;Blog Detail</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content and Sidebar -->
     <div class="container my-4">
         <div class="row">
             <!-- Main Content -->
             <div class="col-lg-8">
                 <div class="content">
                     <h1>Course Navigator</h1>
+                    
                     <img src="images/blog/image1.jpg" alt="Image" class="img-fluid mb-3">
-                    <h3>Unlocking Your Future with Course Navigator:</h3>
-                    <p>The Ultimate Tool for Choosing the Right Course
-                        In today’s fast-paced world, finding the right course that aligns with your career goals,
-                        interests, and budget can feel overwhelming. With countless options available, students often
-                        struggle to make informed decisions. Enter the Course Navigator, an intuitive tool designed to
-                        take the stress out of course selection and guide you toward the perfect academic path.</p>
+
+                    <div class="college-compass">
+                        <div class="post-meta">
+                            <div class="meta-item">
+                                <i class="fa fa-thumbs-up like-btn"></i>
+                                <span class="like-count">102 </span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fa fa-comments"></i>
+                                <span>3</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fa fa-calendar"></i>
+                                <span>26th August 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h2>Unlocking Your Future with Course Navigator:</h2>
+                    <p>The Ultimate Tool for Choosing the Right Course. In today’s fast-paced world, finding the right
+                        course that aligns with your career goals, interests, and budget can feel overwhelming. With
+                        countless options available, students often struggle to make informed decisions. Enter the
+                        Course Navigator, an intuitive tool designed to take the stress out of course selection and
+                        guide you toward the perfect academic path.</p>
 
                     <h3>What is the Course Navigator?</h3>
                     <p>The Course Navigator is an advanced feature of our education platform, built to assist students
@@ -110,27 +145,24 @@
 
                     <h3>Why Use the Course Navigator?</h3>
                     <p>Personalized Recommendations: Say goodbye to endless scrolling. The Course Navigator does the
-                        heavy lifting by providing suggestions that truly match your preferences.
-                        Saves Time and Effort: With so many courses out there, it’s easy to feel lost. The Navigatorstreamlines your search, saving you valuable time.
-                        Tailored to Your Budget: Education is a big investment, and our tool ensures that you find
-                        courses within your financial reach.
-                        Expert Support: We don’t just leave you with recommendations – our platform includes additional
-                        resources like counseling sessions and motivational videos to help you make the best choice.
-                        Success Stories
-                        Thousands of students have already used the Course Navigator to find their perfect match. From
-                        students pursuing cutting-edge tech certifications to those exploring creative fields, this tool
-                        has helped them gain confidence and clarity in their education journey.</p>
-
+                        heavy lifting by providing suggestions that truly match your preferences. Saves Time and Effort:
+                        With so many courses out there, it’s easy to feel lost. The Navigator streamlines your search,
+                        saving you valuable time. Tailored to Your Budget: Education is a big investment, and our tool
+                        ensures that you find courses within your financial reach. Expert Support: We don’t just leave
+                        you with recommendations – our platform includes additional resources like counseling sessions
+                        and motivational videos to help you make the best choice. Success Stories: Thousands of students
+                        have already used the Course Navigator to find their perfect match. From students pursuing
+                        cutting-edge tech certifications to those exploring creative fields, this tool has helped them
+                        gain confidence and clarity in their education journey.</p>
 
                     <h3>Start Exploring Today</h3>
                     <div class="explore-section d-flex">
-                        <img src="images/homepage blog/image11.jpg" alt="Small Image" class="img-fluid me-3"
+                        <img src="images/blog/image11.jpg" alt="Small Image" class="img-fluid me-3"
                             style="width: 260px; height: 260px;">
                         <p>Ready to discover your ideal course? Give the Course Navigator a try and unlock a world of
-                            educational opportunities!
-                            The Course Navigator is an advanced tool designed to help students choose the perfect course
-                            based on their unique preferences,
-                            budget, and career aspirations.</p>
+                            educational opportunities! The Course Navigator is an advanced tool designed to help
+                            students choose the perfect course based on their unique preferences, budget, and career
+                            aspirations.</p>
                     </div>
 
                     <!-- Related Posts Section -->
@@ -143,11 +175,9 @@
                                     <div class="card-body">
                                         <h5 class="card-title">"Shape Your Success"</h5>
                                         <p class="card-text">Find the perfect courses to boost your college experience.
-                                            Our guides
-                                            simplify course selection, helping you make choices that align with your
-                                            goals. Maximize
-                                            your learning and pave the way to success with our expert recommendations.
-                                        </p>
+                                            Our guides simplify course selection, helping you make choices that align
+                                            with your goals. Maximize your learning and pave the way to success with our
+                                            expert recommendations.</p>
                                     </div>
                                 </div>
                             </div>
@@ -157,159 +187,339 @@
                                     <div class="card-body">
                                         <h5 class="card-title">"Building Futures, Breaking Barriers"</h5>
                                         <p class="card-text">Your journey to higher education should be smooth and
-                                            accessible. We are
-                                            dedicated to helping disabled students find the right colleges and courses
-                                            that align with
-                                            their goals, ensuring a future where you can succeed without obstacles
-                                            standing in your way.</p>
+                                            accessible. We are dedicated to helping disabled students find the right
+                                            colleges and courses that align with their goals, ensuring a future where
+                                            you can succeed without obstacles standing in your way.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Comment Section -->
+                    <div class="container my-4">
+                        <h3>Comments</h3>
+                        <div class="comment-box">
+                            <div class="comment">
+                                <div class="avatar">
+                                    <span><img src="images/blog/image12.jpg" alt="User Avatar"
+                                            style="width: 50px; height: 50px; border-radius: 50%;"></span>
+                                </div>
+                                <div class="comment-content">
+                                    <div class="comment-header">
+                                        <strong>Charlie</strong> - <small>28th August 2021</small>
+                                    </div>
+                                    <p>"This blog offers great insights! The tips on course selection really helped me
+                                        narrow down my choices. Keep up the great work!"</p>
+                                    <button class="reply-btn">Reply</button>
+                                </div>
+                            </div>
+                            <!-- More comments... -->
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment">
+                                <div class="avatar">
+                                    <span><img src="images/blog/image13.jpeg" alt="User Avatar"
+                                            style="width: 50px; height: 50px; border-radius: 50%;"></span>
+                                </div>
+                                <div class="comment-content">
+                                    <div class="comment-header">
+                                        <strong>Jack</strong> - <small>28th August 2021</small>
+                                    </div>
+                                    <p>"This blog really helped me understand how to budget for my education! I was
+                                        always worried about tuition and living costs, but these tips gave me a clear
+                                        picture of how to plan my finances better. Thank you!"
+
+                                    </p>
+                                    <button class="reply-btn">Reply</button>
+                                </div>
+                            </div>
+                            <!-- More comments... -->
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment">
+                                <div class="avatar">
+                                    <span><img src="images/blog/image14.webp" alt="User Avatar"
+                                            style="width: 50px; height: 50px; border-radius: 50%;"></span>
+                                </div>
+                                <div class="comment-content">
+                                    <div class="comment-header">
+                                        <strong>James William</strong> - <small>28th August 2021</small>
+                                    </div>
+                                    <p>"Thank you for writing this! As a parent of a child with special needs, it’s so
+                                        encouraging to see more awareness being raised about inclusive education. It’s
+                                        been a challenging journey, but with the right support and resources, children
+                                        with disabilities can truly thrive."</p>
+                                    <button class="reply-btn">Reply</button>
+                                </div>
+                            </div>
+                            <!-- More comments... -->
+                        </div>
+
+                    </div>
+
+                    <!-- Comment Form -->
+                    <form class="my-4">
+                        <h2>LEAVE A REPLY!</h2>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Your Comment"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Post Comment</button>
+                    </form>
                 </div>
-
-
-
-
-
-
-
-           <section id="footer" class="part1">
-            <div class="container-xl">
-              <div class="footer_1 row">
-                <div class="col-md-4">
-                  <div class="footer_1i">
-                    <h3 class="b">About Us</h3>
-                    <hr class="line mb-4">
-                    <p class="a">EduTech is an innovative student management website streamlining enrollment, scheduling, and performance tracking for a seamless educational experience.</p>
-                    <ul class="social-icon">
-                      <li><a href="#" class="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
-                      <li><a href="#" class="Google" title="Google+"><i class="fab fa-google"></i></a></li>
-                      <li><a href="#" class="Linkedin" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                      <li><a href="#" class="Instagram" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                  </ul>
-                  </div>
-                </div>
-          
-                <div class="col-md-2">
-                  <div class="footer_1i">
-                    <h3 class="b">Our Links</h3>
-                    <hr class="line mb-4">
-                    <div class="row footer_1ism">
-                      <h6 class="fw-normal col-md-12 col-6"><a class="a" href="index.html">Home</a></h6>
-                      <h6 class="fw-normal mt-2 col-md-12 col-6"><a class="a" href="about.html">About</a></h6>
-                      <h6 class="fw-normal mt-2 col-md-12 col-6"><a class="a" href="faq.html">Faq</a></h6>
-                      <h6 class="fw-normal mt-2 col-md-12 col-6"><a class="a" href="contact.html">Contact Us</a></h6>
-                      <h6 class="fw-normal mt-2 col-md-12 col-6"><a class="a" href="blog.html">Blog</a></h6>
-                      <h6 class="fw-normal mt-2 col-md-12 col-6 mb-0"><a class="a" href="term&condition.html">Term & Conditions</a></h6>
-                    </div>
-                  </div>
-                </div>
-  
-                <div class="col-md-3">
-                  <div class="footer_1i">
-                    <h3 class="b">Notes</h3>
-                    <hr class="line mb-4">
-                    <div class="row footer_1i1">
-                      <div class="col-md-3 col-3 pe-0">
-                        <div class="footer_1i1l">
-                          <figure class=" effects">
-                            <a href="#"><img src="images/about/img1.avif" class="w-100" alt="img1"></a>
-                          </figure>
-                        </div>
-                      </div>
-                      <div class="col-md-9 col-9">
-                        <div class="footer_1i1r">
-                          <p class="mb-1"><a class="a" href="#">Education is the key that unlocks the door to a brighter future.</a></p>
-                          <h6 class="head1">16 aug, 2024</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <hr class="hr_1">
-                    <div class="row footer_1i1">
-                      <div class="col-md-3 col-3 pe-0">
-                        <div class="footer_1i1l">
-                          <figure class=" effects">
-                            <a href="#"><img src="images/about/img2.jpg" class="w-100" alt="img2"></a>
-                          </figure>
-                        </div>
-                      </div>
-                      <div class="col-md-9 col-9">
-                        <div class="footer_1i1r">
-                          <p class="mb-1"><a class="a" href="#">Management is turning vision into reality through effective coordination.</a></p>
-                          <h6 class="head1">16 aug, 2024</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          
-                <div class="col-md-3">
-                  <div class="footer_1i">
-                    <h3 class="b">Contact Us</h3>
-                    <hr class="line mb-4">
-                    <div class="footer_1riri row">
-                      <div class="col-md-2 col-2">
-                        <div class="footer_1riril">
-                          <div class="icon-style">
-                            <i class="fa fa-phone"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-10 col-10">
-                        <div class="footer_1ririr">
-                          <h6 class="mb-0  lh-base"><a class="a" href="#">+123-456-7890</a><br>
-                          <a class="a" href="#">+123-456-7890</a></h6>
-                        </div>
-                      </div>
-                    </div>
-                    <hr class="hr_1">
-                    <div class="footer_1riri row">
-                      <div class="col-md-2 col-2">
-                        <div class="footer_1riril">
-                          <div class="icon-style">
-                            <i class="fa fa-envelope"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-10 col-10">
-                        <div class="footer_1ririr">
-                          <h6 class="mb-0  lh-base"><a class="a" href="#">nishantbhalla32@gmail.com</a><br>
-                          <a class="a" href="#">info@gmail.com</a></h6>
-                        </div>
-                      </div>
-                    </div>
-                    <hr class="hr_1">
-                    <div class="footer_1riri row">
-                      <div class="col-md-2 col-2">
-                        <div class="footer_1riril">
-                          <div class="icon-style">
-                            <i class="fa fa-map-marker"></i>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-10 col-10">
-                        <div class="footer_1ririr">
-                          <h6 class="mb-0  lh-base"><a class="a" href="#">chitkara university</a></h6>
-                          <h6 class="mb-0  lh-base"><a class="a" href="#">Rajpura</a></h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
-          
-          <section id="footer_b">
-            <div class="container-xl">
-              <div class="col-md-12">
-                <p class="mb-0">
-                  <div class="aab">© 2024 Edutech. All Rights Reserved | Design by <a class="group">Group23</a></div>
-                </p>
-              </div>
+
+            <!-- Sidebar -->
+            <br>
+            <div class="col-lg-4">
+                <h5>Refer Our Consulting Videos</h5>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item"><a href="link_to_courses_video" class="text-decoration-none">Courses</a>
+                    </li>
+                    <li class="list-group-item"><a href="link_to_budget_management_video"
+                            class="text-decoration-none">Budget Management</a></li>
+                    <li class="list-group-item"><a href="link_to_disabled_children_video"
+                            class="text-decoration-none">Disabled Children</a></li>
+                </ul>
+                <br>
+            
+                <h5>Tags</h5>
+                <div class="tags mb-4">
+                    <span class="badge bg-primary">Courses</span>
+                    <span class="badge bg-secondary">Consulting</span>
+                    <span class="badge bg-success">Blogs</span>
+                    <span class="badge bg-secondary">Budget Management</span>
+                    <span class="badge bg-success">Children requiring special accommodations</span>
+                </div>
+                <br>
+                <br>
+                <h5><b>Recent Posts</b></h5>
+                <div class="mb-4">
+                    <p><strong>1. Top Courses to Kickstart Your Career in 2024</strong><br> As the demand for
+                        specialized skills rises, it's essential to choose the right course for a bright future. This
+                        post explores the top courses in tech, healthcare, and design that can help you gain an edge in
+                        today's competitive job market.</p>
+
+                    <p><strong>2. Budgeting Tips for Students: Managing Finances Efficiently</strong><br> Struggling to
+                        keep track of your expenses? This post offers practical tips and tools for managing your budget
+                        as a student, ensuring you can focus on your studies without financial stress.</p>
+
+                    <p><strong>3. Supporting Students with Disabilities: Resources and Opportunities</strong><br>
+                        Education should be inclusive for everyone. This post highlights the resources, scholarships,
+                        and opportunities available for students with disabilities to ensure they receive the support
+                        they deserve.</p>
+
+                    <p><strong>4. Career Counseling: Finding the Path That’s Right for You</strong><br> Not sure what
+                        career path to pursue? Learn how to identify your strengths, passions, and long-term goals with
+                        professional career counseling, helping you make informed decisions about your future.</p>
+                </div>
+                <br>
+                <br>
+                <h5>Categories</h5>
+                <ul class="list-group mb-4">
+                <li class="list-group-item"><a href="course.html">Courses</a></li>
+                <li class="list-group-item"><a href="blog.html">Blogs</a></li>
+                <li class="list-group-item"><a href="#">Budget</a></li>
+                <li class="list-group-item"><a href="#">Consulting Videos</a></li>
+                <li class="list-group-item"><a href="faq.html">Faq</a></li>
+                <li class="list-group-item"><a href="index.html">Design</a></li>
+                </ul>
+
+                <br>
+                <br>
+                <h5>Follow Us</h5>
+                <p>Stay connected with us to keep up with the latest in education! Follow us on our social media
+                    channels for real-time updates, insightful articles, and tips that can enhance your learning
+                    experience. </p>
+                <div class="d-flex justify-content-start mb-4">
+                    <a href="#" class="me-3 text-decoration-none social-icon">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="me-3 text-decoration-none social-icon">
+                        <i class="fa fa-google"></i>
+                    </a>
+                    <a href="#" class="me-3 text-decoration-none social-icon">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="#" class="me-3 text-decoration-none social-icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </div>
             </div>
-          </section>        
-  </body>
-  </html>
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+<section id="footer" class="footer-section">
+    <div class="container-xl">
+        <div class="footer-row row">
+            <div class="col-md-4">
+                <div class="footer-about">
+                    <h3 class="footer-title">About Us</h3>
+                    <hr class="footer-line mb-4">
+                    <p class="footer-text">EduTech is an innovative student management website
+                        streamlining enrollment, scheduling, and performance tracking for a seamless
+                        educational experience.</p>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com" class="facebook" title="Facebook" target="_blank"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://plus.google.com" class="google" title="Google+" target="_blank"><i
+                                    class="fab fa-google"></i></a></li>
+                        <li><a href="https://www.linkedin.com" class="linkedin" title="LinkedIn" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com" class="instagram" title="Instagram" target="_blank"><i
+                                    class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="footer-links">
+                    <h3 class="footer-title">Our Links</h3>
+                    <hr class="footer-line mb-4">
+                    <div class="row">
+                        <h6 class="link-item col-md-12 col-6"><a class="footer-link" href="index.html">Home</a></h6>
+                        <h6 class="link-item mt-2 col-md-12 col-6"><a class="footer-link" href="about.html">About</a>
+                        </h6>
+                        <h6 class="link-item mt-2 col-md-12 col-6"><a class="footer-link" href="faq.html">Faq</a></h6>
+                        <h6 class="link-item mt-2 col-md-12 col-6"><a class="footer-link" href="contact.html">Contact
+                                Us</a></h6>
+                        <h6 class="link-item mt-2 col-md-12 col-6"><a class="footer-link" href="blog.html">Blog</a></h6>
+                        <h6 class="link-item mt-2 col-md-12 col-6 mb-0"><a class="footer-link"
+                                href="term&condition.html">Term & Conditions</a></h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-3">
+                <div class="footer-notes">
+                    <h3 class="footer-title">Notes</h3>
+                    <hr class="footer-line mb-4">
+                    <div class="row note-item">
+                        <div class="col-md-3 col-3 pe-0">
+                            <div class="note-image">
+                                <figure class="note-effects">
+                                    <a href="#"><img src="images/about/img1.avif" class="w-100" alt="img1"></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-9">
+                            <div class="note-content">
+                                <p class="note-text mb-1"><a class="footer-link" href="#">Education is
+                                        the key that unlocks the door to a brighter future.</a></p>
+                                <h6 class="note-date">16 Aug, 2024</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="footer-divider">
+                    <div class="row note-item">
+                        <div class="col-md-3 col-3 pe-0">
+                            <div class="note-image">
+                                <figure class="note-effects">
+                                    <a href="#"><img src="images/about/img2.jpg" class="w-100" alt="img2"></a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-9">
+                            <div class="note-content">
+                                <p class="note-text mb-1"><a class="footer-link" href="#">Management is
+                                        turning vision into reality through effective coordination.</a>
+                                </p>
+                                <h6 class="note-date">16 Aug, 2024</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <hr class="footer-line mb-4">
+                    <div class="contact-item row">
+                        <div class="col-md-2 col-2">
+                            <div class="contact-icon-wrapper">
+                                <div class="contact-icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <div class="contact-info">
+                                <h6 class="contact-text mb-0 lh-base"><a class="footer-link"
+                                        href="#">+123-456-7890</a><br>
+                                    <a class="footer-link" href="#">+123-456-7890</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="footer-divider">
+                    <div class="contact-item row">
+                        <div class="col-md-2 col-2">
+                            <div class="contact-icon-wrapper">
+                                <div class="contact-icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <div class="contact-info">
+                                <h6 class="contact-text mb-0 lh-base"><a class="footer-link"
+                                        href="#">nishantbhalla32@gmail.com</a><br>
+                                    <a class="footer-link" href="#">info@gmail.com</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="footer-divider">
+                    <div class="contact-item row">
+                        <div class="col-md-2 col-2">
+                            <div class="contact-icon-wrapper">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-10 col-10">
+                            <div class="contact-info">
+                                <h6 class="contact-text mb-0 lh-base"><a class="footer-link" href="#">chitkara
+                                        university</a><br>
+                                    <a class="footer-link" href="#">Rajpura</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</section>
+
+<section id="footer-bottom" class="footer-bottom-section">
+    <div class="container-xl">
+        <div class="footer-bottom-content col-md-12">
+            <p class="footer-bottom-text mb-0">
+                © 2024 EduTech. All Rights Reserved | Design by <a href="#" class="footer-bottom-link">Group23</a>
+            </p>
+        </div>
+    </div>
+</section>
+<script src="blog_detail.js"></script>
+</body>
+
+</html>
