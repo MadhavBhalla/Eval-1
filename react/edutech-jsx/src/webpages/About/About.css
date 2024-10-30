@@ -1,8 +1,4 @@
 /* AboutPage.css */
-.g {
-    font-family: 'Jost', sans-serif;
-    font-weight: lighter;
-  }
 #feature {
     padding: 60px 0;
 }
@@ -16,19 +12,15 @@
     font-weight: 700;
     color: #fffad1;
     margin-bottom: 15px;
-    margin-left: 45px;
+    margin-left: 12px;
 }
 
 .feature_1l .para1 {
-    margin-left: 19px;
-}
-
-.feature_1l .ab {
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 .feature_1l .para2 {
-    margin-left: 49px;
+    margin-left: 19px;
 }
 
 .area {
@@ -47,18 +39,17 @@
     width: 100%;
 }
 
-.icon-style {
+.feature_1lil .icon-style {
     border-radius: 100%;
     text-align: center;
     background-color: #396cba; 
     color: white;
-    font-size: 1.15rem; 
+    font-size: 1.18rem; 
     width: 3rem; 
     height: 3rem; 
     line-height: 3rem; 
     overflow: hidden; 
     display: flex; 
-    margin-left: 29px;
     justify-content: center; 
     align-items: center; 
     margin-top: -55px;

@@ -1,15 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap,faChevronRight } from '@fortawesome/free-solid-svg-icons'; 
+import { faGraduationCap, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
     <section id="header">
       <nav className="navbar navbar-expand-md" id="navbar_sticky">
         <div className="container-xl">
-          <a className="navbar-brand p-0 fw-bold text-uppercase" href="index.html" aria-label="EduTech Homepage">
+          <Link className="navbar-brand p-0 fw-bold text-uppercase" to="/" aria-label="EduTech Homepage">
             <FontAwesomeIcon icon={faGraduationCap} className="symbol" /> <span className='hed'>EDU</span><span className="symbol">TECH</span>
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,10 +25,10 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mb-0 ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="index.html">Home</a>
+                <Link className="nav-link" to="/index">Home</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="about.html">About</a>
+                <Link className="nav-link" to="/about">About</Link>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -42,14 +43,14 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="course.html">
-                    <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Courses
-                    </a>
+                    <Link className="dropdown-item" to="/course">
+                      <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Courses
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item border-0" href="budget.html">
-                    <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Budget
-                    </a>
+                    <Link className="dropdown-item border-0" to="/budget">
+                      <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Budget
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -57,37 +58,40 @@ const Header = () => {
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdown"
+                  id="navbarDropdownBlog"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Blog
                 </a>
-                <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdownBlog">
                   <li>
-                    <a className="dropdown-item" href="blog.html">
-                    <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" />Blog
-                    </a>
+                    <Link className="dropdown-item" to="/blog">
+                      <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Blog
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item border-0" href="blog_detail.html">
-                    <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Blog Detail
-                    </a>
+                    <Link className="dropdown-item border-0" to="/blog-detail">
+                      <FontAwesomeIcon icon={faChevronRight} className="font_8 me-1 align-middle" /> Blog Detail
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Review.html">Review</a>
+                <Link className="nav-link" to="/disable">Disable</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">Contact Us</a>
+                <Link className="nav-link" to="/review">Review</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="Faq.html">Faq</a>
+                <Link className="nav-link" to="/contact">Contact Us</Link>
               </li>
               <li className="nav-item">
-                <a className="login" href="login.html">Login/Sign-up</a>
+                <Link className="nav-link" to="/faq">Faq</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="login nav-link" to="/login">Login/Sign-up</Link>
               </li>
             </ul>
           </div>
