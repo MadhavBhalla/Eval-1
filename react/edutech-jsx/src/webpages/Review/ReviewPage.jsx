@@ -83,7 +83,7 @@ const ReviewPage = () => {
               profession="Photographer"
               imgSrc="images/review/image2.webp"
               stars={5}                  
-              review="I highly recommend this site for anyone looking to master budget management. The course content is top-notch and has greatly improved my financial strategies and planning skills."/>
+              review="I highly recommend this site for anyone looking to master budget management. The course content is top-notch and has greatly improved some of my financial strategies and planning skills."/>
             <ReviewCard
               name={updatedCard ? updatedCard.name : 'Rakesh'}
               profession={updatedCard ? updatedCard.profession : 'IT Company'}
