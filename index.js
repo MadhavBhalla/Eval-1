@@ -25,7 +25,7 @@ function showAdvertisement() {
     });
 }
 
-setTimeout(showAdvertisement, 3000);
+setTimeout(showAdvertisement, 7000);
 document.addEventListener("DOMContentLoaded", function() {
   const blogCards = document.querySelectorAll('.blog-card');
 
