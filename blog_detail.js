@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       if (name === "" || email === "" || comment === "") {
         alert("Please fill out all fields before submitting. Retry.");
       } else {
-        alert("Comment posted successfully!");
+        alert("Comment posted successfully!!");
         form.reset();
       }
     });
