@@ -100,7 +100,7 @@ const BlogContent = () => {
                 </div>
                 <div className="meta-item">
                   <i className="fa fa-comments"></i>
-                  <span>40 Comments</span>
+                  <span>39 Comments</span>
                 </div>
                 <div className="meta-item">
                   <i className="fa fa-thumbs-up" onClick={() => setLikes3(likes3 + 1)}></i>
