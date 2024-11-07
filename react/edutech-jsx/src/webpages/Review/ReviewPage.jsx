@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//css
 import './Review.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt, faStar as farStar } from '@fortawesome/free-solid-svg-icons';
@@ -60,7 +59,6 @@ const ReviewPage = () => {
 
   return (
     <div>
-      {/* Page Header */}
       <section id="center" className="box">
         <div className="container-xl">
           <div className="boxa">

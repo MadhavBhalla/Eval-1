@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import Layout from './webpages/Layout'; 
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Index from './webpages/index/Index';
 import AboutPage from './webpages/About/AboutPage';
 import TeamPage from './webpages/Team/TeamPage';
@@ -20,9 +21,9 @@ import './style.css';
 const App = () => {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="index" element={<Index />} />
+          <Route path="/" element={<Index />} />
           <Route path="about" element={<AboutPage />} />
           <Route path="team" element={<TeamPage />} />
           <Route path="disabledetails/VisualImpairmentDetail" element={<VisualImpairmentDetail />} />
@@ -34,8 +35,8 @@ const App = () => {
           <Route path="review" element={<ReviewPage />} />
           <Route path="disable" element={<DisablePage />} />
           <Route path="*" element={<div>404 - Not Found</div>} />
-        </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };

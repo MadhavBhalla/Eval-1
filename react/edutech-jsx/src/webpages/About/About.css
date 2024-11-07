@@ -12,7 +12,11 @@
     font-weight: 700;
     color: #fffad1;
     margin-bottom: 15px;
-    margin-left: 12px;
+    margin-left: -260px;
+}
+
+.head12{
+    margin-left: -360px;
 }
 
 .feature_1l .para1 {

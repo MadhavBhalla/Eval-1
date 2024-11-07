@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link for navigation
-import './Disable.css'; // Import your CSS styles
+import { Link } from 'react-router-dom';
+import './Disable.css'; 
 
 const DisablePage = () => {
   const disabilities = [
@@ -8,7 +8,7 @@ const DisablePage = () => {
       title: "Visual Impairment",
       description: "Limited or no sight affecting daily activities and navigation.",
       imageUrl: "images/disable/visual.jpg",
-      link: "/disabledetails/VisualImpairmentDetail", // Ensure this path matches your route
+      link: "/disabledetails/VisualImpairmentDetail", 
     },
     {
       title: "Hearing Impairment",
