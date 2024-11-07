@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//css
 import './Review.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt, faStar as farStar } from '@fortawesome/free-solid-svg-icons';
@@ -60,7 +59,6 @@ const ReviewPage = () => {
 
   return (
     <div>
-      {/* Page Header */}
       <section id="center" className="box">
         <div className="container-xl">
           <div className="boxa">
@@ -89,7 +87,7 @@ const ReviewPage = () => {
               profession={updatedCard ? updatedCard.profession : 'IT Company'}
               imgSrc="images/review/image1.webp"
               stars={updatedCard ? updatedCard.rating : 4.5}
-              review={updatedCard ? updatedCard.review : 'This site transformed my approach to budget management. The courses are comprehensive and easy to follow, providing invaluable insights that have optimized my financial planning.'}
+              review={updatedCard ? updatedCard.review : 'This site transformed my approach to budget management. The courses are comprehensive and easy to follow timely, providing invaluable insights that have optimized my financial planning.'}
             />
             <ReviewCard
               name="Shradha"

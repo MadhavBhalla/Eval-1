@@ -25,7 +25,7 @@ const teamMembers = [
     {
         name: 'Nishant Bhalla',
         role: 'About Webpage',
-        description: 'Nishant communicates key details about our company, helping users grasp our mission and values.',
+        description: 'Nishant communicates key details about our company, helping users grasp our mission and values on educational platform.',
         imgSrc: 'images/our team/profile2.jpg', // Make sure this image is unique
     },
 ];
