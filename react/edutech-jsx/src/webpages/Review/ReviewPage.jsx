@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Review.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faStarHalfAlt, faStar as farStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import './Review.css';
 
 const ReviewPage = () => {
   const [formData, setFormData] = useState({
@@ -9,7 +9,7 @@ const ReviewPage = () => {
     profession: '',
     email: '',
     review: '',
-    rating: '',
+    rating: null,
     recommend: '',
     consent: false,
   });
@@ -51,7 +51,7 @@ const ReviewPage = () => {
       profession: '',
       email: '',
       review: '',
-      rating: '',
+      rating: null,
       recommend: '',
       consent: false,
     });
@@ -80,8 +80,9 @@ const ReviewPage = () => {
               name="Kashish"
               profession="Photographer"
               imgSrc="images/review/image2.webp"
-              stars={5}                  
-              review="I highly recommend this site for anyone looking to master budget management. The course content is top-notch and has greatly improved some of my financial strategies and planning skills."/>
+              stars={5}
+              review="I highly recommend this site for anyone looking to master budget management. The course content is top-notch and has greatly improved some of my financial strategies and planning skills."
+            />
             <ReviewCard
               name={updatedCard ? updatedCard.name : 'Rakesh'}
               profession={updatedCard ? updatedCard.profession : 'IT Company'}
@@ -93,8 +94,9 @@ const ReviewPage = () => {
               name="Shradha"
               profession="Front-end Developer"
               imgSrc="images/review/image3.jpg"
-              stars={4}
-              review="The resources on this website are fantastic for understanding budget management. The courses are detailed and practical, making complex financial concepts accessible and actionable."/>
+              stars={5}
+              review="The resources on this website are fantastic for understanding budget management. The courses are detailed and practical, making complex financial concepts accessible and actionable."
+            />
           </div>
         </div>
       </section>
@@ -165,17 +167,19 @@ const ReviewPage = () => {
             <label>Overall Rating</label>
             <div className="star-rating">
               {[5, 4, 3, 2, 1].map((star) => (
-                <div key={star}>
+                <React.Fragment key={star}>
                   <input
                     type="radio"
                     id={`${star}-stars`}
                     name="rating"
                     value={star}
-                    checked={formData.rating === star.toString()}
-                    onChange={handleInputChange}
+                    checked={formData.rating === star}
+                    onChange={() => setFormData({ ...formData, rating: star })}
                   />
-                  <label htmlFor={`${star}-stars`}>&#9733;</label>
-                </div>
+                  <label htmlFor={`${star}-stars`}>
+                    <FontAwesomeIcon icon={faStar} />
+                  </label>
+                </React.Fragment>
               ))}
             </div>
           </div>
@@ -190,7 +194,7 @@ const ReviewPage = () => {
                 id="recommendYes"
                 value="yes"
                 checked={formData.recommend === 'yes'}
-                onChange={handleInputChange}
+                onChange={() => setFormData({ ...formData, recommend: 'yes' })}
               />
               <label className="form-check-label" htmlFor="recommendYes">Yes</label>
             </div>
@@ -202,7 +206,7 @@ const ReviewPage = () => {
                 id="recommendNo"
                 value="no"
                 checked={formData.recommend === 'no'}
-                onChange={handleInputChange}
+                onChange={() => setFormData({ ...formData, recommend: 'no' })}
               />
               <label className="form-check-label" htmlFor="recommendNo">No</label>
             </div>
@@ -258,7 +262,7 @@ const ReviewCard = ({ name, profession, imgSrc, stars, review }) => {
           )}
           {[...Array(5 - fullStars - (halfStar ? 1 : 0))].map((_, i) => (
             <li key={i}>
-              <FontAwesomeIcon icon={farStar} />
+              <FontAwesomeIcon icon={faStarHalfAlt} />
             </li>
           ))}
         </ul>

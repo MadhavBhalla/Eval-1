@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './DisableDetail.css'; // Import a CSS file for styling
+import './DisableDetail.css';
 
 const MentalHealthDetail = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'; // Import Font Awesome Icons
+import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import './Review.css';
 
 const ReviewSection = () => {
@@ -56,7 +56,7 @@ const ReviewSection = () => {
       text: formData.reviewText,
     };
 
-    setReviews([newReview, ...reviews.slice(1)]); // Replace the second review
+    setReviews([newReview, ...reviews.slice(1)]);
     setFormData({
       name: '',
       profession: '',
