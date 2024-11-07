@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // Import any CSS if needed
+import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserGraduate, faDollarSign, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
@@ -27,7 +27,7 @@ const AboutPage = () => {
                     <div className="container-xl">
                         <div className="row overview_1">
                             <div className="col-md-6">
-                                <h2>Website Overview</h2>
+                                <h2 className="head12">Website Overview</h2>
                                 <p className="mt-3">
                                     EduTech is a leading provider of innovative student management solutions designed to streamline and enhance the educational experience. Our comprehensive platform offers a range of features that support efficient administration, personalized learning, and effective communication within educational institutions. By leveraging cutting-edge technology, EduTech empowers schools, colleges, and universities to optimize their operations and focus on delivering quality education. Our mission is to simplify student management.
                                 </p>
