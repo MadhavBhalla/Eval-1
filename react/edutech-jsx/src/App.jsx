@@ -16,7 +16,9 @@ import MentalHealthDetail from './webpages/disabledetails/MentalHealthDetail';
 import ChronicHealthDetail from './webpages/disabledetails/ChronicHealthDetail';
 import DisablePage from './webpages/Disable/DisablePage';
 import ReviewPage from './webpages/Review/ReviewPage';
+import FaqPage from './webpages/Faq/FaqPage';
 import './style.css';
+import CoursePage from './webpages/courses/CoursePage'
 
 const App = () => {
   return (
@@ -34,6 +36,8 @@ const App = () => {
           <Route path="disabledetails/ChronicHealthDetail" element={<ChronicHealthDetail />} />
           <Route path="review" element={<ReviewPage />} />
           <Route path="disable" element={<DisablePage />} />
+          <Route path="faq" element={<FaqPage/>} />
+          <Route path="course" element={<CoursePage/>} />
           <Route path="*" element={<div>404 - Not Found</div>} />
       </Routes>
       <Footer />
