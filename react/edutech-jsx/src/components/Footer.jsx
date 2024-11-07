@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faGoogle, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -62,7 +63,7 @@ const Footer = () => {
                     <a className="footer-link" href="blog.html">Blog</a>
                   </h6>
                   <h6 className="link-item mt-2 col-md-12 col-6 mb-0">
-                    <a className="footer-link" href="term&condition.html">Term & Conditions</a>
+                    <Link className="footer-link" to="/termsandcondition">Term & Conditions</Link>
                   </h6>
                 </div>
               </div>
