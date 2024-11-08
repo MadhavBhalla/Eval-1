@@ -1,66 +1,9 @@
 import React from 'react';
-
+import "./Contact.css"
 const Contact = () => {
   return (
     <div>
-      <section id="header">
-        <nav className="navbar navbar-expand-md navbar-light navbar-custom" id="navbar_sticky">
-          <div className="container-xl">
-            <a className="navbar-brand p-0 fw-bold text-uppercase" href="index.html">
-              <i className="fas fa-graduation-cap symbol"></i> EDU<span className="symbol">TECH</span>
-            </a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav mb-0 ms-auto">
-                <li className="nav-item">
-                  <a className="nav-link" href="index.html">Home</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="about.html">About</a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Courses
-                  </a>
-                  <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="course.html"><i className="fas fa-chevron-right font_8 me-1 align-middle"></i> Courses</a></li>
-                    <li><a className="dropdown-item border-0" href="budget.html"><i className="fas fa-chevron-right font_8 me-1 align-middle"></i> Budget Management</a></li>
-                  </ul>
-                </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Blog
-                  </a>
-                  <ul className="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="blog.html"><i className="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog</a></li>
-                    <li><a className="dropdown-item border-0" href="blog_detail.html"><i className="fas fa-chevron-right font_8 me-1 align-middle"></i> Blog Detail</a></li>
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="disable.html">Disable</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="Review.html">Review</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="contact.html">Contact Us</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="Faq.html">Faq</a>
-                </li>
-                <li className="nav-item">
-                  <a className="login" href="login.html">Login/Sign-up</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </section>
+      
 
       <section id="center" className="box">
         <div className="container-xl">
