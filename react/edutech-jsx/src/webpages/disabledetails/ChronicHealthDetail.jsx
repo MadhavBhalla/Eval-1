@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './DisableDetail.css'; // Import a CSS file for styling
+import { Link } from 'react-router-dom'; 
+import './DisableDetail.css';
 
 const ChronicHealthDetail = () => {
     return (

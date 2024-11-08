@@ -1,0 +1,33 @@
+
+.container1 {
+  max-width: 800px;
+
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .termssection h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+} 
+h2{
+  color: black;
+}
+.termssection h2 {
+ 
+  font-size: 19px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  cursor: pointer; 
+}
+h2:hover {
+  color: #5d6063; 
+  text-decoration: underline;
+} 
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+

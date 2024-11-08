@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faBehance } from '@fortawesome/free-brands-svg-icons';
 import './Team.css';
+import { Link } from 'react-router-dom';
 
 const teamMembers = [
     {
@@ -20,13 +21,13 @@ const teamMembers = [
         name: 'Navridhi Sharma',
         role: 'Blog Webpage',
         description: 'Navridhi creatively designs engaging blogs, sharing insights and experiences with our users in a visually appealing way.',
-        imgSrc: 'images/our team/profile1.jpg', // Make sure this image is unique
+        imgSrc: 'images/our team/profile1.jpg', 
     },
     {
         name: 'Nishant Bhalla',
         role: 'About Webpage',
-        description: 'Nishant communicates key details about our company, helping users grasp our mission and values.',
-        imgSrc: 'images/our team/profile2.jpg', // Make sure this image is unique
+        description: 'Nishant communicates key details about our company, helping users grasp our mission and values on educational platform.',
+        imgSrc: 'images/our team/profile2.jpg', 
     },
 ];
 
@@ -38,7 +39,7 @@ const TeamPage = () => {
                     <div className="boxa">
                         <div className="col-md-12">
                             <h1 className="boxb">Our Team</h1>
-                            <h6 className="boxc"><a className="b" href="index.html">Home &nbsp;|</a>&nbsp;Our Team</h6>
+                            <h6 className="boxc"><Link className="b" to="/">Home &nbsp;|</Link>&nbsp; Our Team</h6>
                         </div>
                     </div>
                 </div>

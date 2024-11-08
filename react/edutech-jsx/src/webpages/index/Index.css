@@ -207,7 +207,13 @@
 
 .heading2{
     font-size: 45px;
-    margin-top: 1rem;
+    margin-right: 200px;
+}
+
+.heading3{
+    font-size: 45px;
+    margin-right: 370px;
+    margin-top: -10px;
 }
 
 .text1 {
