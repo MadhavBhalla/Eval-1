@@ -1,9 +1,9 @@
 // src/Content.jsx
 import React from 'react';
-
+import  './CourseDetail.css';
 const Content = () => {
   return (
-    <div className="container">
+    <div className="first">
       {/* Course Heading */}
       <section id="center" className="box">
         <div className="container-xl">
@@ -17,9 +17,9 @@ const Content = () => {
           </div>
         </div>
       </section>
-
+  <div className="containerc detail">
       {/* Main Content (8 columns) */}
-      <div className="content">
+      <div className="content ">
         <h1>Mechanical Engineering (ME)</h1>
 
         {/* About Course */}
@@ -63,7 +63,16 @@ const Content = () => {
             and maintenance engineer, among others.
           </p>
         </section>
-
+        
+        {/* Average Salary */}
+        <section id="average-salary">
+          <h2>Average Salary Packages</h2>
+          <p>
+            The average salary for a Mechanical Engineering graduate can range from $65,000 to $120,000 per year, 
+            depending on the role and location. Major companies like Boeing, Tesla, General Electric, and Siemens 
+            offer competitive salaries and career growth opportunities for mechanical engineers.
+          </p>
+        </section>
         {/* Top Colleges */}
         <section id="course" className="p_3">
           <div className="container-xl">
@@ -136,15 +145,6 @@ const Content = () => {
           </div>
         </section>
 
-        {/* Average Salary */}
-        <section id="average-salary">
-          <h2>Average Salary Packages</h2>
-          <p>
-            The average salary for a Mechanical Engineering graduate can range from $65,000 to $120,000 per year, 
-            depending on the role and location. Major companies like Boeing, Tesla, General Electric, and Siemens 
-            offer competitive salaries and career growth opportunities for mechanical engineers.
-          </p>
-        </section>
       </div>
 
       {/* Sidebar (4 columns with videos) */}
@@ -180,6 +180,7 @@ const Content = () => {
           <h4>Do you have any Queries? Kindly visit our <a href="#">FAQ page.</a></h4>
         </div>
       </div>
+    </div>
     </div>
   );
 };

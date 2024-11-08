@@ -22,8 +22,8 @@ const Header = () => {
 // Course Details Component
 const CourseDetails = () => {
   return (
-    <div className="containerc">
-      <div className="content coursed">
+    <div className="container">
+      <div className="content">
         <h1>Computer Science and Engineering (CSE)</h1>
         <section id="about_course">
           <h2>What is this Course About?</h2>
@@ -161,7 +161,7 @@ const ConsultingVideos = () => {
 // Sidebar Component
 const Sidebar = () => {
   return (
-    <div className="sidebar video">
+    <div className="sidebar">
       <ConsultingVideos />
     </div>
   );

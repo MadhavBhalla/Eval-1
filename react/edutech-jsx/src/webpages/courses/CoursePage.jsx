@@ -3,6 +3,8 @@ import React from 'react';
  // Make sure this file exists and contains your custom styles
 // import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap styles
 import './CoursePage.css';
+import { Link } from 'react-router-dom';
+
 // CourseCard Component
 const CourseCard = ({ image, title, description, link }) => {
   return (
@@ -11,9 +13,9 @@ const CourseCard = ({ image, title, description, link }) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <a href={link} className="btn btn-primary">
+        <Link to={link} className="btn btn-primary">
           Know More
-        </a>
+        </Link>
       </div>
     </div>
   );
@@ -25,19 +27,21 @@ const CoursesSection = () => {
       image: '/images/course/img_1.jpg',
       title: 'Computer Science and Engineering',
       description: 'The Computer Science Engineering course entails the study of computer hardware and software.',
-      link: '/course_details.html',
+      link: '/coursedetail',
+
     },
     {
       image: '/images/course/img_2.jpg',
       title: 'Business and Management',
       description: 'This course provides versatile skill set covering strategic planning, leadership and problem-solving.',
-      link: '/course_details_busi.html',
+      link: '/coursedetailb'
     },
     {
       image: '/images/course/img_3.jpeg',
       title: 'Mechanical Engineering',
       description: 'It is the study of physical machines that combines engineering physics and mathematics principles.',
-      link: '/course_details_mechanical.html',
+      link: '/coursedetailm',
+
     },
     {
       image: '/images/course/img_4.avif',
