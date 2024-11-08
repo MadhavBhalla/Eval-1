@@ -2,7 +2,7 @@ import React, { useState } from "react";  // Import useState
 // import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 // Add your custom CSS here (if needed)
 import { Link } from 'react-router-dom';
-import './FaqPage.css'; 
+import "./FaqPage.css"; 
 const FAQSection = () => {
   // State variables to handle the form inputs
   const [firstName, setFirstName] = useState("");
@@ -47,8 +47,8 @@ const FAQSection = () => {
         <div id="ques">
           <div id="ques-content">
             <h1>Do You Have Any Questions?</h1>
-            <h3>We have answers (well, most of the time!)</h3>
-            <h5>
+            <h3 id="we">We have answers (well, most of the time!)</h3>
+            <h5 id="below">
               Below you'll find answers to the most questions you may have on
               Edutech. If you still can't find the answer you're looking for,
               just <a href="contact.html">Contact Us</a>!

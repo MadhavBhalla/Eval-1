@@ -17,7 +17,11 @@ import DisablePage from './webpages/Disable/DisablePage';
 import ReviewPage from './webpages/Review/ReviewPage';
 import FaqPage from './webpages/Faq/FaqPage';
 import './style.css';
-import CoursePage from './webpages/courses/CoursePage'
+import CoursePage from './webpages/courses/CoursePage';
+import CourseDetail from './webpages/coursedetail/CourseDetail';
+import CourseDetailB from './webpages/coursedetail/CourseDetailB';
+import CourseDetailM from './webpages/coursedetail/CourseDetailM';
+
 
 const App = () => {
   return (
@@ -37,6 +41,10 @@ const App = () => {
           <Route path="disable" element={<DisablePage />} />
           <Route path="faq" element={<FaqPage/>} />
           <Route path="course" element={<CoursePage/>} />
+          <Route path="coursedetail" element={<CourseDetail/>} />
+          <Route path="coursedetailb" element={<CourseDetailB/>} />
+          <Route path="coursedetailm" element={<CourseDetailM/>} />
+          
           <Route path="*" element={<div>404 - Not Found</div>} />
           
 
