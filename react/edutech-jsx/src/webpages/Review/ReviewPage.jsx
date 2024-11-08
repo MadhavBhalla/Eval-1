@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 import './Review.css';
+import { Link } from 'react-router-dom';
 
 const ReviewPage = () => {
   const [formData, setFormData] = useState({
@@ -65,7 +66,7 @@ const ReviewPage = () => {
             <div className="col-md-12">
               <h1 className="boxb">Review</h1>
               <h6 className="boxc">
-                <a className="b" href="index.html">Home &nbsp;|</a>&nbsp;Review
+              <Link className="b" to="/">Home &nbsp;|</Link>&nbsp; Review
               </h6>
             </div>
           </div>
@@ -103,7 +104,7 @@ const ReviewPage = () => {
 
       {/* Review Form */}
       <div className="container1">
-        <h2>Customer Review Form</h2>
+        <h2 className="lo">Customer Review Form</h2>
         <p className="text-center">We would love to hear about your experience.</p>
 
         <form id="reviewForm" onSubmit={handleSubmit}>
@@ -243,8 +244,10 @@ const ReviewCard = ({ name, profession, imgSrc, stars, review }) => {
 
   return (
     <div className="col-md-4 mb-4">
-      <div className="card">
-        <div className="card-body">
+      <div className="card kkkk">
+        
+        <div className="card-body kkk">
+        
           <img src={imgSrc} alt={name} />
         </div>
         <h5 className="fw-bold text-dark">{name}</h5>
@@ -268,7 +271,7 @@ const ReviewCard = ({ name, profession, imgSrc, stars, review }) => {
         </ul>
         <p>{review}</p>
       </div>
-    </div>
+      </div>
   );
 };
 

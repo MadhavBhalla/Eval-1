@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram, faBehance } from '@fortawesome/free-brands-svg-icons';
 import './Team.css';
+import { Link } from 'react-router-dom';
 
 const teamMembers = [
     {
@@ -38,7 +39,7 @@ const TeamPage = () => {
                     <div className="boxa">
                         <div className="col-md-12">
                             <h1 className="boxb">Our Team</h1>
-                            <h6 className="boxc"><a className="b" href="index.html">Home &nbsp;|</a>&nbsp;Our Team</h6>
+                            <h6 className="boxc"><Link className="b" to="/">Home &nbsp;|</Link>&nbsp; Our Team</h6>
                         </div>
                     </div>
                 </div>
