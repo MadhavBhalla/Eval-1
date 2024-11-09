@@ -19,10 +19,13 @@ import ReviewPage from './webpages/Review/ReviewPage';
 import FaqPage from './webpages/Faq/FaqPage';
 
 import './style.css';
-import CoursePage from './webpages/courses/CoursePage'
 import TermsAndCondition from './webpages/termsandcondition/TermsAndCondition';
 import Contact from './webpages/contactus/Contact';
 import CourseList from './webpages/budget/CourseList';
+import CoursePage from './webpages/courses/CoursePage';
+import CourseDetail from './webpages/coursedetail/CourseDetail';
+import CourseDetailB from './webpages/coursedetail/CourseDetailB';
+import CourseDetailM from './webpages/coursedetail/CourseDetailM';
 
 const App = () => {
   return (
@@ -45,6 +48,9 @@ const App = () => {
           <Route path="termsandcondition" element={<TermsAndCondition/>} />
           <Route path="contact" element={<Contact/>} />
           <Route path="budget"  element={<CourseList/>}/>
+          <Route path="coursedetail" element={<CourseDetail/>} />
+          <Route path="coursedetailb" element={<CourseDetailB/>} />
+          <Route path="coursedetailm" element={<CourseDetailM/>} />
           <Route path="*" element={<div>404 - Not Found</div>} />
       </Routes>
       <Footer />

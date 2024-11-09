@@ -4,10 +4,10 @@
     margin: 59.5px 35px;
     
 }
-.card-title{
+.cardTitle{
     text-align: center;
 }
-.card-text{
+.cardText{
     text-align: center;
 }
 .card{
@@ -26,24 +26,24 @@
     background-color: rgb(241, 237, 234);
 
 }
-.card-img-top{
+.cardImgTop{
     height: 250px;
     opacity: 0.87;
     object-fit: cover;
 }
     
-.card-img-top:hover{
+.cardImgTop:hover{
     opacity: 1;
    
 }
-.btn-primary{
+.btn_primary{
     width: 50%;
   color: #112f5c;
   background: #f1d60c;
 
-  
+
 }
-.btn-primary:hover{
+.btn_primary:hover{
     background-color: #112f5c;
     transition-duration: 0.7s;
     transition-timing-function: ease-out;

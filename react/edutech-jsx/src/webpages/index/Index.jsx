@@ -4,6 +4,10 @@ import { faUserGraduate, faDollarSign, faHandshake } from '@fortawesome/free-sol
 import { Link } from 'react-router-dom';
 import './Index.css';
 
+// import img4 from '../assets/images/index/img4.jpeg'; // Adjust according to your folder structure
+// import img5 from '../assets/images/index/img5.jpeg'; // Adjust according to your folder structure
+// import img6 from '../assets/images/index/img6.jpeg'; // Adjust according to your folder structure
+
 const Index = () => {
   const [showAd, setShowAd] = useState(false);
 
@@ -125,6 +129,106 @@ const Index = () => {
         </div>
       </div>
     </section>
+ 
+    <section id="course" className="p_3">
+      <div className="container-xl">
+        <div className="row course_h1 text-center mb-4">
+          <div className="col-md-12">
+            <h6 className="heading1">
+              <i className="fa fa-graduation-cap me-1"></i> Courses
+            </h6>
+            <h1 className="font_50 mb-0">Graduate Programs</h1>
+          </div>
+        </div>
+        <div className="row course_1">
+          {/* Engineering Course */}
+          <div className="col-md-4">
+            <div className="course_1m clearfix">
+              <div className="course_1m1 clearfix position-relative">
+                <div className="course_1m1i clearfix">
+                  <div className="grid clearfix">
+                    <figure className="effect-jazz mb-0">
+                      <Link to="#">
+                        <img src="images/index/img4.jpeg" className="w-110" alt="Engineering" />
+                      </Link>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="course_1m2 bg_light p-4 pt-3">
+                <h4><Link to="#">Engineering</Link></h4>
+                <p>
+                  Engineering courses, such as Mechanical Engineering, Electrical Engineering, and Computer Science Engineering,
+                  are among the most popular and widely pursued. These programs focus on applying scientific and mathematical
+                  principles to solve real-world problems.
+                </p>
+                <h6 className="mb-0 fw-bold">
+                  <Link className="col_oran" to="/course">Read More <i className="fa fa-long-arrow-right ms-1"></i></Link>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          {/* Business Administration Course */}
+          <div className="col-md-4">
+            <div className="course_1m clearfix">
+              <div className="course_1m1 clearfix position-relative">
+                <div className="course_1m1i clearfix">
+                  <div className="grid clearfix">
+                    <figure className="effect-jazz mb-0">
+                      <Link to="#">
+                        <img src="images\index\img5.jpeg"  className="w-110" alt="Business Administration" />
+                      </Link>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="course_1m2 clearfix bg_light p-4 pt-3">
+                <h4><Link to="#">Business Administration</Link></h4>
+                <p>
+                  Courses like Bachelor of Business Administration (BBA), Accounting, Finance, and Marketing are central to
+                  business studies. These programs prepare students for careers in management, entrepreneurship, finance, marketing,
+                  and other business-related fields.
+                </p>
+                <h6 className="mb-0 fw-bold">
+                  <Link className="col_oran" to="/course">Read More <i className="fa fa-long-arrow-right ms-1"></i></Link>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          {/* Medicine Course */}
+          <div className="col-md-4">
+            <div className="course_1m clearfix">
+              <div className="course_1m1 clearfix position-relative">
+                <div className="course_1m1i clearfix">
+                  <div className="grid clearfix">
+                    <figure className="effect-jazz mb-0">
+                      <Link to="#">
+                        <img src="images\index\img6.jpeg" className="w-110" alt="Medicine" />
+                      </Link>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="course_1m2 clearfix bg_light p-4 pt-3">
+                <h4><Link to="#">Medicine</Link></h4>
+                <p>
+                  Medical courses, such as MBBS (Bachelor of Medicine, Bachelor of Surgery), Nursing, Pharmacy, and Dentistry,
+                  are essential in the healthcare field. These programs are rigorous and lead to careers in healthcare services,
+                  from becoming doctors and nurses to pharmacists and medical researchers.
+                </p>
+                <h6 className="mb-0 fw-bold">
+                  <Link className="col_oran" to="/course">Read More <i className="fa fa-long-arrow-right ms-1"></i></Link>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
       <section id="feature" className="area">
         <div className="container-fluid">
