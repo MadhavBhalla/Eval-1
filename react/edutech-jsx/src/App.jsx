@@ -17,6 +17,7 @@ import ChronicHealthDetail from './webpages/disabledetails/ChronicHealthDetail';
 import DisablePage from './webpages/Disable/DisablePage';
 import ReviewPage from './webpages/Review/ReviewPage';
 import FaqPage from './webpages/Faq/FaqPage';
+
 import './style.css';
 import CoursePage from './webpages/courses/CoursePage'
 import TermsAndCondition from './webpages/termsandcondition/TermsAndCondition';
