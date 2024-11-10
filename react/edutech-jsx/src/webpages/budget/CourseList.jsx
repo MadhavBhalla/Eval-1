@@ -50,7 +50,7 @@ function CourseList() {
       <div className="course-list">
         {filteredCourses.length > 0 ? (
           filteredCourses.map(course => (
-            <div className="course-card" key={course.id}>
+            <div className="course-card tap" key={course.id}>
               <img src={course.image} alt={course.name} />
               <h3>{course.name}</h3>
               <p>Price: ${course.price}</p>
